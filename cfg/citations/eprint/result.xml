@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 
-<!-- 
+<!--
 	Neat citation for eprints used in search results.
 -->
 
 <cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:cite="http://eprints.org/ep3/citation" xmlns:epc="http://eprints.org/ep3/control" type="table_row">
-  <tr >
+  <tr class="leandro">
     <td style="padding-left: 0.5em"><epc:print expr="$n" />.</td>
     <td style="padding-left: 0.5em">
       <epc:print expr="$item.citation('default')" />
@@ -15,7 +15,7 @@
     <td style="padding-right: 0.5em" align="right"><epc:print expr="fileinfo"/></td>
     </tr>
 
-    <tr class="ep_search_result"><td></td> 
+    <tr class="ep_search_result"><td></td>
 <td colspan="2">
   <epc:valoration expr="eprintid"/> </td>
 	  </tr>
