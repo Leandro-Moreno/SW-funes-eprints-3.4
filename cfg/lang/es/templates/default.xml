@@ -79,7 +79,7 @@
           </table>
            </div>
           </div>
-          <footer >
+          <div>
 <div class="container" id="footer-container">
 <div class="hidden-xs hidden-sm col-md-12">
 <div class="footer-top row">
@@ -229,45 +229,15 @@
 <div class="col-xs-12 col-sm-12 col-md-3" id="footer-right">
 <hr id="hr-left">
 <h4>Redes sociales</h4>
-<div class="col-xs-12">
-<ul>
-<li>
-<a target="_blank" href="https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159" class="link-social-network"><img title="Facebook" src="/images/footer-facebook.png" alt="Facebook"></a>
-</li>
-<li>
-<a target="_blank" href="https://twitter.com/Uniandes" class="link-social-network"><img title="twitter" src="/images/footer-twitter.png" alt="twitter"></a>
-</li>
-<li>
-<a target="_blank" href="https://www.youtube.com/user/uniandes" class="link-social-network"><img title="youtube" src="/images/footer-youtube.png" alt="youtube"></a>
-</li>
-<li>
-<a target="_blank" href="https://www.linkedin.com/company/universidad-de-los-andes" class="link-social-network"><img title="linkedin" src="/images/footer-linkedin.png" alt="linkedin"></a>
-</li>
-<li>
-<a target="_blank" href="http://instagram.com/uniandes" class="link-social-network"><img title="instagram" src="/images/footer-instagram.png" alt="instagram"></a>
-</li>
-</ul>
-</div>
-<div class="col-xs-12">
-<ul>
-<li>
-<a target="_blank" href="https://www.snapchat.com/add/uniandescol" class="link-social-network"><img title="snapchat" src="/images/footer-snapchat.png" alt="snapchat"></a>
-</li>
-<li>
-<a target="_blank" href="https://vimeo.com/uniandes" class="link-social-network"><img title="vimeo" src="/images/footer-vimeo.png" alt="vimeo"></a>
-</li>
-<li>
-<a target="_blank" href="https://plus.google.com/+uniandes/posts" class="link-social-network"><img title="google" src="/images/footer-google.png" alt="google"></a>
-</li>
-</ul>
-</div>
+
+
 <p class="network-directory-footer">
 <a href="https://uniandes.edu.co/universidad/informacion-general/redes-sociales/" class="directorio-redes">Directorio de redes</a>
 </p>
 </div>
 </div>
 </div>
-</footer>
+</div>
           <script type="text/javascript">
           var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
           document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
