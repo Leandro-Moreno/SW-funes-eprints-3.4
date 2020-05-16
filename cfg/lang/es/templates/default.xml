@@ -9,7 +9,6 @@
           <title><epc:pin ref="title" textonly="yes"/>
             -
             <epc:phrase ref="archive_name"/></title>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
             <link rel="stylesheet" href="./css/main.min.css">
               <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
               <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
