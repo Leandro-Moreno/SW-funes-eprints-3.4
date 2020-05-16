@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"  standalone="no"  ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>P&aacute;gina Inicial de <epc:phrase ref="archive_name" /></xpage:title>
+<xpage:title>Página Inicial de <epc:phrase ref="archive_name" /></xpage:title>
 
 <xpage:body>
 
 <div class="ep_msg_message"><div class="ep_msg_message_content"><table><tbody><tr><td>
 <img alt="Message" src="{$config{rel_path}}/style/images/message.png" /></td><td>
-Bienvenido a <epc:phrase ref="archive_name" />. Lo invitamos a registrarse.  
+Bienvenido a <epc:phrase ref="archive_name" />. Lo invitamos a registrarse.
 </td></tr></tbody></table></div></div>
 
 <div style="text-align: right">
@@ -18,7 +18,7 @@ Bienvenido a <epc:phrase ref="archive_name" />. Lo invitamos a registrarse.
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
   <a href="{$config{perl_url}}/register">Ventajas de Ser un Usuario Registrado</a><br /><br />
-Los usuarios registrados pueden proponer documentos para su publicaci&oacute;n, guardar b&uacute;squedas de su inter&eacute;s y recibir informaci&oacute;n (por correo electr&oacute;nico y RSS) cuando se publiquen nuevos documentos que satisfagan esas b&uacute;squedas.
+Los usuarios registrados pueden proponer documentos para su publicaci&oacute;n, guardar b&uacute;squedas de su interés y recibir informaci&oacute;n (por correo electr&oacute;nico y RSS) cuando se publiquen nuevos documentos que satisfagan esas b&uacute;squedas.
 </div></div>
 
 <div class="ep_toolbox" ><div class="ep_toolbox_content" >
@@ -28,12 +28,12 @@ Registros publicados en <epc:phrase ref="archive_name" /> durante la &uacute;lti
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
  <a href="{$config{perl_url}}/search/advanced">B&uacute;squeda Avanzada</a><br /><br />
-Realizar b&uacute;squedas complejas utilizando informaci&oacute;n m&uacute;ltiple sobre los registros existentes. Utilice el campo de b&uacute;squeda en la parte superior de la p&aacute;gina para una b&uacute;squeda r&aacute;pida.
+Realizar b&uacute;squedas complejas utilizando informaci&oacute;n m&uacute;ltiple sobre los registros existentes. Utilice el campo de b&uacute;squeda en la parte superior de la página para una b&uacute;squeda rápida.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
- <a href="{$config{base_url}}/view/subjects/">Estructura de <epc:phrase ref="archive_name" /> por T&eacute;rminos Claves</a><br /><br />
- Presentaci&oacute;n del contenido de <epc:phrase ref="archive_name" /> organizada con la estructura de sus t&eacute;rminos clave.
+ <a href="{$config{base_url}}/view/subjects/">Estructura de <epc:phrase ref="archive_name" /> por Términos Claves</a><br /><br />
+ Presentaci&oacute;n del contenido de <epc:phrase ref="archive_name" /> organizada con la estructura de sus términos clave.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
@@ -42,8 +42,8 @@ Realizar b&uacute;squedas complejas utilizando informaci&oacute;n m&uacute;ltipl
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content" >
- <a href="{$config{base_url}}/policies.html">Pol&iacute;ticas de Uso</a><br /><br />
- Pol&iacute;ticas de uso de los registros de <epc:phrase ref="archive_name" />.
+ <a href="{$config{base_url}}/policies.html">Políticas de Uso</a><br /><br />
+ Políticas de uso de los registros de <epc:phrase ref="archive_name" />.
 </div></div>
 
 <!--<p style="margin-top: 2em; font-size: 90%">
