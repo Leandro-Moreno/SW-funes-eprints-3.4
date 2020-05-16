@@ -2,302 +2,269 @@
 <!DOCTYPE html SYSTEM "entities.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
-  <link rel="icon" type="image/png" href="./images/juice-favicon.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
-  <link rel="stylesheet" href="./css/main.min.css">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="Top" href="{$config{frontpage}}"/>
-  <link rel="Search" href="{$config{perl_url}}/search"/>
-  <epc:pin ref="head"/>
-  </head>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+          <title><epc:pin ref="title" textonly="yes"/>
+            -
+            <epc:phrase ref="archive_name"/></title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
+            <link rel="stylesheet" href="./css/main.min.css">
+              <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+              <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+              <link rel="Top" href="{$config{frontpage}}"/>
+              <link rel="Search" href="{$config{perl_url}}/search"/>
+              <epc:pin ref="head"/>
+            </head>
 
-<body onload="{$config{onload}}">
-  <!-- header top-bar Ad -->
-  <section class="banner-top">
-    <div class="container container-fluid">
-      <p> <a href="#" role="ad">Volver al sitio institucional</a> </p>
-    </div>
-  </section>
-  <!-- header -->
-  <header id="header" class="header">
-    <div class="">
-      <div class="header_outer-wrap row">
-        <section class="header_middle-wrap col-md-10">
-          <!-- NAVIGATION -->
-          <nav id="nav-menu-container" class="nav-main" role="navigation">
-            <ul class="nav_ul nav nav-fill nav-mega">
-              <li class="nav-item nav-item nav-item--logo" aria-hidden="true">
-                <a class="nav-link" href="#">
-                  <img class="juice-logo" src="./images/logoFunes.png" alt="Juice Logo" role="banner">
-                </a>
-              </li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Pagina inicial</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Término Clave</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Autor</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Valoración</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Enfoque</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Nivel Educativo</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Revista</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Editorial</a></li>
-              <li class="hidden-sm nav-item"><a class="nav-link" href="#">Año</a></li>
-            </ul>
-          </nav><!-- #nav-menu-container -->
-        </section>
-      </div><!-- #header-outer -->
-    </div>
-  </header><!-- #header -->
-  <!-- HERO -->
-  <section id="hero" class="hero carousel slide container container--full" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./images/hero-left-img.jpg" alt="First slide">
-        <div class="carousel-caption carousel-caption--right d-none d-md-block">
-          <h5>boxes just got more custom</h5>
-          <p>Build a custom box of 8 items. Start by adding any juice, lemonade, snack or shots pack!</p>
-          <a href="#" class="btn--outline">Build A Box</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="./images/hero-center-img.jpg" alt="Second slide">
-        <div class="carousel-caption carousel-caption--center d-none d-md-block">
-          <h5>it’s back</h5>
-          <p>Cream Party get your juice flight or your custom box and get first class health delivered straight to your doorstep.</p>
-          <a href="#" class="btn--outline">Shop Now</a>
-        </div>
-      </div>
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="./images/hero-right-img.jpg" alt="Third slide">
-        <div class="carousel-caption carousel-caption--left d-none d-md-block">
-          <h5>WE SHIP OVERNIGHT NATIONWIDE</h5>
-          <p>We deliver Tuesday-Friday and offer the ability to schedule ahead.</p>
-          <a href="#" class="btn--outline">View Menu</a>
-        </div>
-      </div>
-    </div>
-  </section><!-- HOME CONTENT -->
-  <section class="the-box container--the-box container">
-    <div class="section-header section-header--the-box container">
-      <h2>You buy it by the box</h2>
-      <p>Choose 7-8 products of your liking and have it delivered to your door as often as you want. Your pick, every time.</p>
-    </div>
-    <div class="the-box_col-wrap container">
-      <div class="the-box_col-item">
-        <span>
-          <h5>Build Your Box</h5>
-          <p>choose your favorites</p>
-        </span>
-      </div>
-      <div class="the-box_col-item">
-        <span>
-          <h5>Subscribe Or Don't</h5>
-          <p>save when you do </p>
-        </span>
-      </div>
-      <div class="the-box_col-item">
-        <span>
-          <h5>Pick a Delivery Day</h5>
-          <p>we ship overnight</p>
-        </span>
-      </div>
-    </div>
-    <a href="#" class="btn--outline">Shop The Menu</a>
-  </section>
-  <footer>
-    <div class="container" id="footer-container">
-      <div class="hidden-xs hidden-sm col-md-12">
-        <div class="footer-top row">
-          <div class="hidden-sm col-md-3">
-            <a target="_blank" href="https://uniandes.edu.co/donaciones">
-              <div class="col-xs-3 col-sm-4">
-                <img title="Donaciones" alt="Donaciones" src="/images/icon-donaciones_2_0_2.png" class="footer-top-images">
-              </div>
-              <div class="col-xs-9 col-sm-8">
-                <p class="footer-top-title">Los Andes</p>
-                <p class="footer-top-subtitle">Donaciones</p>
-                <hr id="hr-donaciones" class="footer-top-hr">
-              </div>
-            </a>
-          </div>
-          <div class="hidden-sm col-md-3">
-            <a target="_blank" href="http://repositorio.uniandes.edu.co">
-              <div class="col-xs-3 col-sm-4">
-                <img title="Icono Repositorio" alt="Icono Repositorio" src="/images/icon-repositorios_1_0.png" class="footer-top-images">
-              </div>
-              <div class="col-xs-9 col-sm-8">
-                <p class="footer-top-title">Los Andes</p>
-                <p class="footer-top-subtitle">Repositorio</p>
-                <hr id="hr-repositorio" class="footer-top-hr">
-              </div>
-            </a>
-          </div>
-          <div class="hidden-sm col-md-3">
-            <a target="_blank" href="https://uniandes.edu.co/egresado-uniandes">
-              <div class="col-xs-3 col-sm-4">
-                <img title="Icono Egresados" alt="Icono Egresados" src="/images/icon-egresados_1_0.png" class="footer-top-images">
-              </div>
-              <div class="col-xs-9 col-sm-8">
-                <p class="footer-top-title">Los Andes</p>
-                <p class="footer-top-subtitle">Egresados</p>
-                <hr id="hr-egresados" class="footer-top-hr">
-              </div>
-            </a>
-          </div>
-          <div class="hidden-sm col-md-3">
-            <a target="_blank" href="https://eventos.uniandes.edu.co/">
-              <div class="col-xs-3 col-sm-4">
-                <img title="Icono Eventos" alt="Icono Eventos" src="/images/icon-eventos_1_0.png" class="footer-top-images">
-              </div>
-              <div class="col-xs-9 col-sm-8">
-                <p class="footer-top-title">Los Andes</p>
-                <p class="footer-top-subtitle">Eventos</p>
-                <hr id="hr-eventos" class="footer-top-hr">
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
-          <div class="col-md-12">
-            <img src="/images/firma_seneca_blanco.png" id="logo-uniandes-footer">
-            <hr id="hr-left">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <p>Cra 1 Nº 18A - 12</p>
-              <p>Bogotá - Colombia</p>
-              <p>Postal code: 111711</p>
-            </div>
-            <div class="col-md-6" id="footer-phone-section">
-              <p>
-                <a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
-              </p>
-              <p>
-                <a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 row" id="footer-middle">
-          <div class="col-xs-12 col-sm-6">
-            <hr id="hr-left">
-            <h4>Normatividad Institucional</h4>
-            <ul class="list-footer">
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Actos internos e incremento</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/bienestar/">Bienestar</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/derechos-pecuniarios/">Derechos pecunarios</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/estatuto-docente/">Estatuto docente</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/en/normatividad-institucional/2-uncategorised/69-estatutos-de-la-universidad">Estatuto general</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/ley-de-transparencia/">Ley de transparencia</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Porcentaje de incremento</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/es/component/content/article/11-asuntos-estudiantiles/24-reglamentos-estudiantiles">Reglamentos de estudiantes</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/uso-de-datos-personales/">Uso de datos personales</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <hr id="hr-left">
-            <h4>Enlaces Rápidos</h4>
-            <ul class="list-footer">
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon">ATC (Acceso Temporal al Campus)</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/caribe">Universidad
-                  <de>los Andes Caribe</a></de>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/es/convivencia-0/">Convivencia y transparencia</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://educacioncontinuada.uniandes.edu.co/index.php/es/nuestra-oferta/cursos-abiertos">Educación Continuada</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://gerenciacampus.uniandes.edu.co/Areas-funcionales/Servicios-medicos-y-seguridad-industrial/Emergencias/Sistema-de-Atencion-de-Emergencias-SAE">Emergencias: Extensión 0000</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://investigaciones.uniandes.edu.co/es/informacion/profesores/">Nuestros profesores</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/sitemap/">Mapa del sitio</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/multimedia/">Multimedia</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/noticias/">Noticias</a>
-              </li>
-              <li class="list-footer-link">
-                <a class="list-footer-link" target="" href="https://uniandes.edu.co/preguntas-frecuentes/">Preguntas frecuentes</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3" id="footer-right">
-          <hr id="hr-left">
-          <h4>Redes sociales</h4>
-          <div class="col-xs-12">
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159" class="link-social-network"><img title="Facebook" src="/images/footer-facebook.png" alt="Facebook"></a>
-              </li>
-              <li>
-                <a target="_blank" href="https://twitter.com/Uniandes" class="link-social-network"><img title="twitter" src="/images/footer-twitter.png" alt="twitter"></a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.youtube.com/user/uniandes" class="link-social-network"><img title="youtube" src="/images/footer-youtube.png" alt="youtube"></a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.linkedin.com/company/universidad-de-los-andes" class="link-social-network"><img title="linkedin" src="/images/footer-linkedin.png" alt="linkedin"></a>
-              </li>
-              <li>
-                <a target="_blank" href="http://instagram.com/uniandes" class="link-social-network"><img title="instagram" src="/images/footer-instagram.png" alt="instagram"></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xs-12">
-            <ul>
-              <li>
-                <a target="_blank" href="https://www.snapchat.com/add/uniandescol" class="link-social-network"><img title="snapchat" src="/images/footer-snapchat.png" alt="snapchat"></a>
-              </li>
-              <li>
-                <a target="_blank" href="https://vimeo.com/uniandes" class="link-social-network"><img title="vimeo" src="/images/footer-vimeo.png" alt="vimeo"></a>
-              </li>
-              <li>
-                <a target="_blank" href="https://plus.google.com/+uniandes/posts" class="link-social-network"><img title="google" src="/images/footer-google.png" alt="google"></a>
-              </li>
-            </ul>
-          </div>
-          <p class="network-directory-footer">
-            <a href="https://uniandes.edu.co/universidad/informacion-general/redes-sociales/" class="directorio-redes">Directorio de redes</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+            <body onload="{$config{onload}}">
+              <!-- header top-bar Ad -->
+              <section class="banner-top">
+                <div class="container container-fluid">
+                  <p>
+                    <a href="#" role="ad">Volver al sitio institucional</a>
+                  </p>
+                </div>
+              </section>
+              <!-- header -->
+              <header id="header" class="header">
+                <div class="">
+                  <div class="header_outer-wrap row">
+                    <section class="header_middle-wrap col-md-10">
+                      <!-- NAVIGATION -->
+                      <nav id="nav-menu-container" class="nav-main" role="navigation">
+                        <ul class="nav_ul nav nav-fill nav-mega">
+                          <li class="nav-item nav-item nav-item--logo" aria-hidden="true">
+                            <a class="nav-link" href="#">
+                              <img class="juice-logo" src="./images/logoFunes.png" alt="Juice Logo" role="banner"></a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Pagina inicial</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Término Clave</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Autor</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Valoración</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Enfoque</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Nivel Educativo</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Revista</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Editorial</a>
+                            </li>
+                            <li class="hidden-sm nav-item">
+                              <a class="nav-link" href="#">Año</a>
+                            </li>
+                          </ul>
+                        </nav>
+                        <!-- #nav-menu-container -->
+                      </section>
+                    </div>
+                    <!-- #header-outer -->
+                  </div>
+                </header>
 
-</html>
+                <footer>
+                  <div class="container" id="footer-container">
+                    <div class="hidden-xs hidden-sm col-md-12">
+                      <div class="footer-top row">
+                        <div class="hidden-sm col-md-3">
+                          <a target="_blank" href="https://uniandes.edu.co/donaciones">
+                            <div class="col-xs-3 col-sm-4">
+                              <img title="Donaciones" alt="Donaciones" src="/images/icon-donaciones_2_0_2.png" class="footer-top-images"></div>
+                              <div class="col-xs-9 col-sm-8">
+                                <p class="footer-top-title">Los Andes</p>
+                                <p class="footer-top-subtitle">Donaciones</p>
+                                <hr id="hr-donaciones" class="footer-top-hr"></div>
+                              </a>
+                            </div>
+                            <div class="hidden-sm col-md-3">
+                              <a target="_blank" href="http://repositorio.uniandes.edu.co">
+                                <div class="col-xs-3 col-sm-4">
+                                  <img title="Icono Repositorio" alt="Icono Repositorio" src="/images/icon-repositorios_1_0.png" class="footer-top-images"></div>
+                                  <div class="col-xs-9 col-sm-8">
+                                    <p class="footer-top-title">Los Andes</p>
+                                    <p class="footer-top-subtitle">Repositorio</p>
+                                    <hr id="hr-repositorio" class="footer-top-hr"></div>
+                                  </a>
+                                </div>
+                                <div class="hidden-sm col-md-3">
+                                  <a target="_blank" href="https://uniandes.edu.co/egresado-uniandes">
+                                    <div class="col-xs-3 col-sm-4">
+                                      <img title="Icono Egresados" alt="Icono Egresados" src="/images/icon-egresados_1_0.png" class="footer-top-images"></div>
+                                      <div class="col-xs-9 col-sm-8">
+                                        <p class="footer-top-title">Los Andes</p>
+                                        <p class="footer-top-subtitle">Egresados</p>
+                                        <hr id="hr-egresados" class="footer-top-hr"></div>
+                                      </a>
+                                    </div>
+                                    <div class="hidden-sm col-md-3">
+                                      <a target="_blank" href="https://eventos.uniandes.edu.co/">
+                                        <div class="col-xs-3 col-sm-4">
+                                          <img title="Icono Eventos" alt="Icono Eventos" src="/images/icon-eventos_1_0.png" class="footer-top-images"></div>
+                                          <div class="col-xs-9 col-sm-8">
+                                            <p class="footer-top-title">Los Andes</p>
+                                            <p class="footer-top-subtitle">Eventos</p>
+                                            <hr id="hr-eventos" class="footer-top-hr"></div>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
+                                        <div class="col-md-12">
+                                          <img src="/images/firma_seneca_blanco.png" id="logo-uniandes-footer">
+                                            <hr id="hr-left"></div>
+                                            <div class="row">
+                                              <div class="col-md-6">
+                                                <p>Cra 1 Nº 18A - 12</p>
+                                                <p>Bogotá - Colombia</p>
+                                                <p>Postal code: 111711</p>
+                                              </div>
+                                              <div class="col-md-6" id="footer-phone-section">
+                                                <p>
+                                                  <a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
+                                                </p>
+                                                <p>
+                                                  <a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
+                                                </p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-xs-12 col-sm-6 col-md-4 row" id="footer-middle">
+                                            <div class="col-xs-12 col-sm-6">
+                                              <hr id="hr-left">
+                                                <h4>Normatividad Institucional</h4>
+                                                <ul class="list-footer">
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Actos internos e incremento</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://uniandes.edu.co/bienestar/">Bienestar</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://uniandes.edu.co/derechos-pecuniarios/">Derechos pecunarios</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://uniandes.edu.co/estatuto-docente/">Estatuto docente</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/en/normatividad-institucional/2-uncategorised/69-estatutos-de-la-universidad">Estatuto general</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://uniandes.edu.co/ley-de-transparencia/">Ley de transparencia</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Porcentaje de incremento</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/es/component/content/article/11-asuntos-estudiantiles/24-reglamentos-estudiantiles">Reglamentos de estudiantes</a>
+                                                  </li>
+                                                  <li class="list-footer-link">
+                                                    <a class="list-footer-link" target="" href="https://uniandes.edu.co/uso-de-datos-personales/">Uso de datos personales</a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="col-xs-12 col-sm-6">
+                                                <hr id="hr-left">
+                                                  <h4>Enlaces Rápidos</h4>
+                                                  <ul class="list-footer">
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon">ATC (Acceso Temporal al Campus)</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/caribe">Universidad
+                                                        <de>los Andes Caribe</a>
+                                                      </de>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/es/convivencia-0/">Convivencia y transparencia</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://educacioncontinuada.uniandes.edu.co/index.php/es/nuestra-oferta/cursos-abiertos">Educación Continuada</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://gerenciacampus.uniandes.edu.co/Areas-funcionales/Servicios-medicos-y-seguridad-industrial/Emergencias/Sistema-de-Atencion-de-Emergencias-SAE">Emergencias: Extensión 0000</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://investigaciones.uniandes.edu.co/es/informacion/profesores/">Nuestros profesores</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/sitemap/">Mapa del sitio</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/multimedia/">Multimedia</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/noticias/">Noticias</a>
+                                                    </li>
+                                                    <li class="list-footer-link">
+                                                      <a class="list-footer-link" target="" href="https://uniandes.edu.co/preguntas-frecuentes/">Preguntas frecuentes</a>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                              <div class="col-xs-12 col-sm-12 col-md-3" id="footer-right">
+                                                <hr id="hr-left">
+                                                  <h4>Redes sociales</h4>
+                                                  <div class="col-xs-12">
+                                                    <ul>
+                                                      <li>
+                                                        <a target="_blank" href="https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159" class="link-social-network">
+                                                          <img title="Facebook" src="/images/footer-facebook.png" alt="Facebook"></a>
+                                                        </li>
+                                                        <li>
+                                                          <a target="_blank" href="https://twitter.com/Uniandes" class="link-social-network">
+                                                            <img title="twitter" src="/images/footer-twitter.png" alt="twitter"></a>
+                                                          </li>
+                                                          <li>
+                                                            <a target="_blank" href="https://www.youtube.com/user/uniandes" class="link-social-network">
+                                                              <img title="youtube" src="/images/footer-youtube.png" alt="youtube"></a>
+                                                            </li>
+                                                            <li>
+                                                              <a target="_blank" href="https://www.linkedin.com/company/universidad-de-los-andes" class="link-social-network">
+                                                                <img title="linkedin" src="/images/footer-linkedin.png" alt="linkedin"></a>
+                                                              </li>
+                                                              <li>
+                                                                <a target="_blank" href="http://instagram.com/uniandes" class="link-social-network">
+                                                                  <img title="instagram" src="/images/footer-instagram.png" alt="instagram"></a>
+                                                                </li>
+                                                              </ul>
+                                                            </div>
+                                                            <div class="col-xs-12">
+                                                              <ul>
+                                                                <li>
+                                                                  <a target="_blank" href="https://www.snapchat.com/add/uniandescol" class="link-social-network">
+                                                                    <img title="snapchat" src="/images/footer-snapchat.png" alt="snapchat"></a>
+                                                                  </li>
+                                                                  <li>
+                                                                    <a target="_blank" href="https://vimeo.com/uniandes" class="link-social-network">
+                                                                      <img title="vimeo" src="/images/footer-vimeo.png" alt="vimeo"></a>
+                                                                    </li>
+                                                                    <li>
+                                                                      <a target="_blank" href="https://plus.google.com/+uniandes/posts" class="link-social-network">
+                                                                        <img title="google" src="/images/footer-google.png" alt="google"></a>
+                                                                      </li>
+                                                                    </ul>
+                                                                  </div>
+                                                                  <p class="network-directory-footer">
+                                                                    <a href="https://uniandes.edu.co/universidad/informacion-general/redes-sociales/" class="directorio-redes">Directorio de redes</a>
+                                                                  </p>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </footer>
+                                                        </body>
+
+                                                      </html>
