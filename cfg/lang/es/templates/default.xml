@@ -3,9 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
 
   <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
     <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
               <style type="text/css" media="screen">@import url(<epc:print expr="$config{base_url}"/>/css/auto.css);</style>
               <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
@@ -13,10 +11,12 @@
               <link rel="Top" href="{$config{frontpage}}"/>
               <link rel="Search" href="{$config{perl_url}}/search"/>
               <epc:pin ref="head"/>
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
             </head>
 
             <body onload="{$config{onload}}">
+              <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
+              <epc:pin ref="pagetop"/>
+              
               <section class="banner-top">
                 <div class="container container-fluid">
                   <p> <a href="https://uniandes.edu.co" >Volver al sitio institucional</a> </p>
@@ -48,8 +48,6 @@
                 </div>
               </div>
 
-              <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
-              <epc:pin ref="pagetop"/>
               <div class="ep_tm_header ep_noprint">
 
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
