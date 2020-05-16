@@ -10,7 +10,7 @@
               <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
               <link rel="Top" href="{$config{frontpage}}"/>
               <link rel="Search" href="{$config{perl_url}}/search"/>
-              <epc:pin ref="head"/>
+              
             </head>
 
             <body onload="{$config{onload}}">
