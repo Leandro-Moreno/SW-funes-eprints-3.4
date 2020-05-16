@@ -22,17 +22,17 @@
                   <p> <a href="#" role="ad">Volver al sitio institucional</a> </p>
                 </div>
               </section>
-              <!-- header -->
+
               <header id="header" class="header">
                 <div class="">
                   <div class="header_outer-wrap row">
                     <section class="header_middle-wrap col-md-10">
-                      <!-- NAVIGATION -->
+
                       <nav id="nav-menu-container" class="nav-main" role="navigation">
                         <ul class="nav_ul nav nav-fill nav-mega">
                           <li class="nav-item nav-item nav-item--logo" aria-hidden="true">
                             <a class="nav-link" href="#">
-                              <img class="juice-logo" src="./images/logoFunes.png" alt="Juice Logo" role="banner">
+                              <img class="juice-logo" src="{$config{base_url}}/images/logoFunes.png" alt="Juice Logo" role="banner">
                             </a>
                           </li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="#">Pagina inicial</a></li>
