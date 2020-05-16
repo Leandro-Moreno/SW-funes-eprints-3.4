@@ -9,8 +9,8 @@
           <title><epc:pin ref="title" textonly="yes"/>
             -
             <epc:phrase ref="archive_name"/></title>
-            <link rel="stylesheet" href="./css/main.min.css">
-              <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+              <style type="text/css" media="screen">@import url(<epc:print expr="$config{base_url}"/>/css/main.min.css);</style>
+              <link rel="icon" href="{$config{base_url}}/favicon.ico" type="image/x-icon"/>
               <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
               <link rel="Top" href="{$config{frontpage}}"/>
               <link rel="Search" href="{$config{perl_url}}/search"/>
