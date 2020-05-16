@@ -34,15 +34,15 @@
                               <img class="juice-logo" src="{$config{base_url}}/images/funesLogo.jpg" alt="Juice Logo">
                             </a>
                           </li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Pagina inicial</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Término Clave</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Autor</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Valoración</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Enfoque</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Nivel Educativo</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Revista</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Editorial</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Año</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Pagina inicial</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Término Clave</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Autor</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Valoración</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Enfoque</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Nivel Educativo</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Revista</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Editorial</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Año</a></li>
                         </ul>
                       </nav>
                     </section>
@@ -153,7 +153,7 @@
                                                                   <a href="/policies.html"> Polï¿½ticas de Uso </a>
                                                           </li>
                                                           <li class="navlink">
-                                                                  <a href="/help/index.html#Depositing"> Depï¿½sito de Registros </a>
+                                                                  <a href="/help/index.html/Depositing"> Depï¿½sito de Registros </a>
                                                           </li>
                                                   </ul>
                                           </li>
