@@ -23,6 +23,33 @@
                 </div>
               </section>
 
+              <div id="header" class="header">
+                <div class="">
+                  <div class="header_outer-wrap row">
+                    <section class="header_middle-wrap col-md-10">
+                      <nav id="nav-menu-container" class="nav-main" role="navigation">
+                        <ul class="nav_ul nav nav-fill nav-mega">
+                          <li class="nav-item nav-item nav-item--logo" aria-hidden="true">
+                            <a class="nav-link" href="/">
+                              <img class="juice-logo" src="{$config{base_url}}/images/funesLogo.jpg" alt="Juice Logo">
+                            </a>
+                          </li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Pagina inicial</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Término Clave</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Autor</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Valoración</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Enfoque</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Nivel Educativo</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Revista</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Editorial</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="#">Año</a></li>
+                        </ul>
+                      </nav>
+                    </section>
+                  </div>
+                </div>
+              </div>
+
               <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
               <epc:pin ref="pagetop"/>
               <div class="ep_tm_header ep_noprint">
