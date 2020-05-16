@@ -27,7 +27,7 @@
                 <div class="">
                   <div class="header_outer-wrap row">
                     <section class="header_middle-wrap col-md-10">
-                      <nav id="nav-menu-container" class="nav-main" role="navigation">
+                      <div id="nav-menu-container" class="nav-main" role="navigation">
                         <ul class="nav_ul nav nav-fill nav-mega">
                           <li class="nav-item nav-item nav-item--logo" aria-hidden="true">
                             <a class="nav-link" href="/">
@@ -44,7 +44,7 @@
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Editorial</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Año</a></li>
                         </ul>
-                      </nav>
+                      </div>
                     </section>
                   </div>
                 </div>
