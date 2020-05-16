@@ -125,6 +125,30 @@
     </div>
     <footer>
       <div class="container" id="footer-container">
+
+        <div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
+    <div class="col-md-12">
+      <img src="/images/firma_seneca_blanco.png" id="logo-uniandes-footer">
+      <hr id="hr-left">
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Cra 1 Nº 18A - 12</p>
+        <p>Bogotá - Colombia</p>
+        <p>Postal code: 111711</p>
+      </div>
+      <div class="col-md-6" id="footer-phone-section">
+        <p>
+          <a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
+        </p>
+        <p>
+          <a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
       </div>
     </footer>
                               <script type="text/javascript">
