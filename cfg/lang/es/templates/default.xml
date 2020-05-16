@@ -85,71 +85,40 @@
       </table>
     </div>
 
-    <div class="ep_tm_footer ep_noprint">
-      <epc:phrase ref="ruler"/>
-      <hr class="ep_tm_last"/>
-      <div style="font-size: 100%;">
-        <div>
-          <epc:phrase ref="archive_name"/>
-          es un proyecto de
-          <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
-          (<a href="http://cife.uniandes.edu.co/">CIFE</a>,
-          <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogot�, Colombia), en colaboraci�n con el grupo
-          <a href="http://fqm193.ugr.es/">FQM-193</a>
-          del Plan Andaluz de Investigaci�n, Desarrollo e Innovaci�n de la Junta de Andaluc�a.
-          <epc:phrase ref="archive_name"/>
-          tiene el patrocinio del
-          <a href="www.mineducacion.gov.co/">Ministerio de Educaci�n Nacional de Colombia</a>.
-        </div>
-        <hr style="width: 100%; height: 2px;"/>
-        <table style="width: 100%; text-align: center; margin-left: 0px; margin-right: auto;" border="0" cellpadding="6" cellspacing="6">
-          <tbody>
-            <tr>
-              <td style="text-align: center;" valign="undefined">
-                <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a>
-              </td>
-              <td style="text-align: center;" valign="undefined">
-                <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a>
-              </td>
-
-              <td style="text-align: center;" valign="undefined">
-                <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a>
-              </td>
-              <td style="text-align: center;" valign="undefined">
-                <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
     <footer>
       <div class="container" id="footer-container">
 
         <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
+  <div class="col-xs-12 col-sm-6 col-md-6" id="footer-left">
     <div class="col-md-12">
       <img alt="Funes" id="logo-uniandes-footer" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
       <hr id="hr-left"/>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a>
-        <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a>
-        <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a>
-        <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a>
+          </div>
+          <div class="col-md-12">
+            <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a>
+          </div>
+        </div>
       </div>
       <div class="col-md-6" id="footer-phone-section">
-
-          <a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
-
-
-          <a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a>
+          </div>
+          <div class="col-md-12">
+            <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a>
+          </div>
+        </div>
 
       </div>
     </div>
   </div>
-<div class="col-xs-12 col-sm-6 col-md-5" id="footer-right">
+<div class="col-xs-12 col-sm-6 col-md-6" id="footer-right">
   <epc:phrase ref="archive_name"/>
   es un proyecto de
   <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
