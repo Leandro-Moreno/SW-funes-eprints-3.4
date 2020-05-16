@@ -1,3 +1,5 @@
 /documents/*
 /var/xapian/*
-/html/*
+/html/*.html
+/html/es/archive/*
+/html/en/archive/*
