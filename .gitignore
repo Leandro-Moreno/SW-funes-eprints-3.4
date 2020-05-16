@@ -2,6 +2,8 @@
 /var/xapian/*
 /var/*.timestamp
 /html/*.html
+/html/en/*.html
+/html/es/*.html
 /html/es/archive/*
 /html/en/archive/*
 /html/es/view/subjects/*
