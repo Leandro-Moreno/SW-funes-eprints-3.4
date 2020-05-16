@@ -75,14 +75,9 @@
 
     <div align="center">
       <epc:pin ref="toolbar"/>
-      <table width="625" class="ep_tm_main">
-        <tr>
-          <td align="left">
+
             <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
             <epc:pin ref="page"/>
-          </td>
-        </tr>
-      </table>
     </div>
 
     <footer>
