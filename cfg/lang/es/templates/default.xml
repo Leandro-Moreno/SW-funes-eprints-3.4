@@ -3,249 +3,290 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
-    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
-              <link rel="stylesheet" type="text/css" href="/css/main.min.css" />
-              <style type="text/css" media="screen">@import url(<epc:print expr="$config{base_url}"/>/css/auto.css);</style>
-              <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-              <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-              <link rel="Top" href="{$config{frontpage}}"/>
-              <link rel="Search" href="{$config{perl_url}}/search"/>
+    <title><epc:pin ref="title" textonly="yes"/>-<epc:phrase ref="archive_name"/></title>
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="Top" href="{$config{frontpage}}"/>
+    <link rel="Search" href="{$config{perl_url}}/search"/>
 
-            </head>
+  </head>
 
-            <body onload="{$config{onload}}">
-              <div class="ep_noprint"><noscript><style type='text/css'>@import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);</style></noscript></div>
-              <epc:pin ref="pagetop"/>
+  <body onload="{$config{onload}}">
+    <div class="ep_noprint">
+      <noscript>
+        <style type='text/css'>
+          @import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);
+        </style>
+      </noscript>
+    </div>
+    <epc:pin ref="pagetop"/>
 
-              <section class="banner-top">
-                <div class="container container-fluid">
-                  <p> <a href="https://uniandes.edu.co" >Volver al sitio institucional</a> </p>
+    <section class="banner-top">
+      <div class="container container-fluid">
+        <p>
+          <a href="https://uniandes.edu.co">Volver al sitio institucional</a>
+        </p>
+      </div>
+    </section>
+
+    <div id="header" class="header">
+      <div class="">
+        <div class="header_outer-wrap row">
+          <section class="header_middle-wrap col-md-10">
+            <nav id="nav-menu-container" class="nav-main" role="navigation">
+              <ul class="nav_ul nav nav-fill nav-mega">
+                <li class="nav-item nav-item nav-item--logo">
+                  <img alt="Funes" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="/">Página inicial</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/subjects/">Término Clave</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/creators/">Autor</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/valoration/">Valoración</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/enfoque/">Enfoque</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/divisions/">Nivel Educativo</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/revista/">Revista</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/editorial/">Editorial</a>
+                </li>
+                <li class="hidden-sm nav-item">
+                  <a class="nav-link" href="{$config{base_url}}/view/year/">Año</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div align="center">
+      <epc:pin ref="toolbar"/>
+      <table width="625" class="ep_tm_main">
+        <tr>
+          <td align="left">
+            <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
+            <epc:pin ref="page"/>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="ep_tm_footer ep_noprint">
+      <epc:phrase ref="ruler"/>
+      <hr class="ep_tm_last"/>
+      <div style="font-size: 100%;">
+        <div>
+          <epc:phrase ref="archive_name"/>
+          es un proyecto de
+          <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
+          (<a href="http://cife.uniandes.edu.co/">CIFE</a>,
+          <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotï¿½, Colombia), en colaboraciï¿½n con el grupo
+          <a href="http://fqm193.ugr.es/">FQM-193</a>
+          del Plan Andaluz de Investigaciï¿½n, Desarrollo e Innovaciï¿½n de la Junta de Andalucï¿½a.
+          <epc:phrase ref="archive_name"/>
+          tiene el patrocinio del
+          <a href="www.mineducacion.gov.co/">Ministerio de Educaciï¿½n Nacional de Colombia</a>.
+        </div>
+        <hr style="width: 100%; height: 2px;"/>
+        <table style="width: 100%; text-align: center; margin-left: 0px; margin-right: auto;" border="0" cellpadding="6" cellspacing="6">
+          <tbody>
+            <tr>
+              <td style="text-align: center;" valign="undefined">
+                <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a>
+              </td>
+              <td style="text-align: center;" valign="undefined">
+                <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a>
+              </td>
+
+              <td style="text-align: center;" valign="undefined">
+                <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a>
+              </td>
+              <td style="text-align: center;" valign="undefined">
+                <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <div class="container" id="footer-container">
+        <div class="hidden-xs hidden-sm col-md-12">
+          <div class="footer-top row">
+            <div class="hidden-sm col-md-3">
+              <a target="_blank" href="https://uniandes.edu.co/donaciones">
+                <div class="col-xs-3 col-sm-4">
+                  <img title="Donaciones" alt="Donaciones" src="/images/icon-donaciones_2_0_2.png" class="footer-top-images"/></div>
+                  <div class="col-xs-9 col-sm-8">
+                    <p class="footer-top-title">Los Andes</p>
+                    <p class="footer-top-subtitle">Donaciones</p>
+                    <hr id="hr-donaciones" class="footer-top-hr"></div>
+                  </a>
                 </div>
-              </section>
+                <div class="hidden-sm col-md-3">
+                  <a target="_blank" href="http://repositorio.uniandes.edu.co">
+                    <div class="col-xs-3 col-sm-4">
+                      <img title="Icono Repositorio" alt="Icono Repositorio" src="/images/icon-repositorios_1_0.png" class="footer-top-images"/></div>
+                      <div class="col-xs-9 col-sm-8">
+                        <p class="footer-top-title">Los Andes</p>
+                        <p class="footer-top-subtitle">Repositorio</p>
+                        <hr id="hr-repositorio" class="footer-top-hr"></div>
+                      </a>
+                    </div>
+                    <div class="hidden-sm col-md-3">
+                      <a target="_blank" href="https://uniandes.edu.co/egresado-uniandes">
+                        <div class="col-xs-3 col-sm-4">
+                          <img title="Icono Egresados" alt="Icono Egresados" src="/images/icon-egresados_1_0.png" class="footer-top-images"/></div>
+                          <div class="col-xs-9 col-sm-8">
+                            <p class="footer-top-title">Los Andes</p>
+                            <p class="footer-top-subtitle">Egresados</p>
+                            <hr id="hr-egresados" class="footer-top-hr"></div>
+                          </a>
+                        </div>
+                        <div class="hidden-sm col-md-3">
+                          <a target="_blank" href="https://eventos.uniandes.edu.co/">
+                            <div class="col-xs-3 col-sm-4">
+                              <img title="Icono Eventos" alt="Icono Eventos" src="/images/icon-eventos_1_0.png" class="footer-top-images"/></div>
+                              <div class="col-xs-9 col-sm-8">
+                                <p class="footer-top-title">Los Andes</p>
+                                <p class="footer-top-subtitle">Eventos</p>
+                                <hr id="hr-eventos" class="footer-top-hr"></div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
+                            <div class="col-md-12">
+                              <img src="/images/firma_seneca_blanco.png" id="logo-uniandes-footer"/>
+                                <hr id="hr-left"></div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <p>Cra 1 Nº 18A - 12</p>
+                                    <p>Bogotá - Colombia</p>
+                                    <p>Postal code: 111711</p>
+                                  </div>
+                                  <div class="col-md-6" id="footer-phone-section">
+                                    <p>
+                                      <a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
+                                    </p>
+                                    <p>
+                                      <a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-6 col-md-4 row" id="footer-middle">
+                                <div class="col-xs-12 col-sm-6">
+                                  <hr id="hr-left">
+                                    <h4>Normatividad Institucional</h4>
+                                    <ul class="list-footer">
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Actos internos e incremento</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://uniandes.edu.co/bienestar/">Bienestar</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://uniandes.edu.co/derechos-pecuniarios/">Derechos pecunarios</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://uniandes.edu.co/estatuto-docente/">Estatuto docente</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/en/normatividad-institucional/2-uncategorised/69-estatutos-de-la-universidad">Estatuto general</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://uniandes.edu.co/ley-de-transparencia/">Ley de transparencia</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Porcentaje de incremento</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/es/component/content/article/11-asuntos-estudiantiles/24-reglamentos-estudiantiles">Reglamentos de estudiantes</a>
+                                      </li>
+                                      <li class="list-footer-link">
+                                        <a class="list-footer-link" target="" href="https://uniandes.edu.co/uso-de-datos-personales/">Uso de datos personales</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-6">
+                                    <hr id="hr-left">
+                                      <h4>Enlaces Rápidos</h4>
+                                      <ul class="list-footer">
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon">ATC (Acceso Temporal al Campus)</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/caribe">Universidad
+                                            <de>los Andes Caribe</a>
+                                          </de>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/es/convivencia-0/">Convivencia y transparencia</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://educacioncontinuada.uniandes.edu.co/index.php/es/nuestra-oferta/cursos-abiertos">Educación Continuada</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://gerenciacampus.uniandes.edu.co/Areas-funcionales/Servicios-medicos-y-seguridad-industrial/Emergencias/Sistema-de-Atencion-de-Emergencias-SAE">Emergencias: Extensión 0000</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://investigaciones.uniandes.edu.co/es/informacion/profesores/">Nuestros profesores</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/sitemap/">Mapa del sitio</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/multimedia/">Multimedia</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/noticias/">Noticias</a>
+                                        </li>
+                                        <li class="list-footer-link">
+                                          <a class="list-footer-link" target="" href="https://uniandes.edu.co/preguntas-frecuentes/">Preguntas frecuentes</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-12 col-md-3" id="footer-right">
+                                    <hr id="hr-left">
+                                      <h4>Redes sociales</h4>
 
-              <div id="header" class="header">
-                <div class="">
-                  <div class="header_outer-wrap row">
-                    <section class="header_middle-wrap col-md-10">
-                      <nav id="nav-menu-container" class="nav-main" role="navigation">
-                        <ul class="nav_ul nav nav-fill nav-mega">
-                          <li class="nav-item nav-item nav-item--logo">
-                            <img alt="Funes" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
-                          </li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Página inicial</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/subjects/">Término Clave</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/creators/">Autor</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/valoration/">Valoración</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/enfoque/">Enfoque</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/divisions/">Nivel Educativo</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/revista/">Revista</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/editorial/">Editorial</a></li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/year/">Año</a></li>
-                        </ul>
-                      </nav>
-                    </section>
-                  </div>
-                </div>
-              </div>
-
-
-          <div align="center">
-            <epc:pin ref="toolbar" />
-            <table width="625" class="ep_tm_main"><tr><td align="left">
-              <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
-              <epc:pin ref="page"/>
-            </td></tr></table>
-          </div>
-
-
-          <div class="ep_tm_footer ep_noprint">
-           <epc:phrase ref="ruler" />
-           <hr class="ep_tm_last"/>
-           <div style="font-size: 100%;">
-             <div>
-            <epc:phrase ref="archive_name" /> es un proyecto de  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a> (<a href="http://cife.uniandes.edu.co/">CIFE</a>, <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotï¿½, Colombia), en colaboraciï¿½n con el grupo <a href="http://fqm193.ugr.es/">FQM-193</a> del Plan Andaluz de Investigaciï¿½n, Desarrollo e Innovaciï¿½n de la Junta de Andalucï¿½a. <epc:phrase ref="archive_name" /> tiene el patrocinio del <a href="www.mineducacion.gov.co/">Ministerio de Educaciï¿½n Nacional de Colombia</a>.
-             </div>
-             <hr style="width: 100%; height: 2px;"/>
-          <table style="width: 100%; text-align: center; margin-left: 0px; margin-right: auto;" border="0" cellpadding="6" cellspacing="6">
-           <tbody>
-             <tr>
-               <td style="text-align: center;" valign="undefined"><a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a></td>
-               <td style="text-align: center;" valign="undefined"><a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a></td>
-
-               <td style="text-align: center;" valign="undefined"><a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a></td>
-               <td style="text-align: center;" valign="undefined"><a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a></td>
-             </tr>
-           </tbody>
-          </table>
-           </div>
-          </div>
-          <div>
-<div class="container" id="footer-container">
-<div class="hidden-xs hidden-sm col-md-12">
-<div class="footer-top row">
-<div class="hidden-sm col-md-3">
-<a target="_blank" href="https://uniandes.edu.co/donaciones">
-<div class="col-xs-3 col-sm-4">
-<img title="Donaciones" alt="Donaciones" src="/images/icon-donaciones_2_0_2.png" class="footer-top-images">
-</div>
-<div class="col-xs-9 col-sm-8">
-<p class="footer-top-title">Los Andes</p>
-<p class="footer-top-subtitle">Donaciones</p>
-<hr id="hr-donaciones" class="footer-top-hr">
-</div>
-</a>
-</div>
-<div class="hidden-sm col-md-3">
-<a target="_blank" href="http://repositorio.uniandes.edu.co">
-<div class="col-xs-3 col-sm-4">
-<img title="Icono Repositorio" alt="Icono Repositorio" src="/images/icon-repositorios_1_0.png" class="footer-top-images">
-</div>
-<div class="col-xs-9 col-sm-8">
-<p class="footer-top-title">Los Andes</p>
-<p class="footer-top-subtitle">Repositorio</p>
-<hr id="hr-repositorio" class="footer-top-hr">
-</div>
-</a>
-</div>
-<div class="hidden-sm col-md-3">
-<a target="_blank" href="https://uniandes.edu.co/egresado-uniandes">
-<div class="col-xs-3 col-sm-4">
-<img title="Icono Egresados" alt="Icono Egresados" src="/images/icon-egresados_1_0.png" class="footer-top-images">
-</div>
-<div class="col-xs-9 col-sm-8">
-<p class="footer-top-title">Los Andes</p>
-<p class="footer-top-subtitle">Egresados</p>
-<hr id="hr-egresados" class="footer-top-hr">
-</div>
-</a>
-</div>
-<div class="hidden-sm col-md-3">
-<a target="_blank" href="https://eventos.uniandes.edu.co/">
-<div class="col-xs-3 col-sm-4">
-<img title="Icono Eventos" alt="Icono Eventos" src="/images/icon-eventos_1_0.png" class="footer-top-images">
-</div>
-<div class="col-xs-9 col-sm-8">
-<p class="footer-top-title">Los Andes</p>
-<p class="footer-top-subtitle">Eventos</p>
-<hr id="hr-eventos" class="footer-top-hr">
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-xs-12 col-sm-6 col-md-5" id="footer-left">
-<div class="col-md-12">
-<img src="/images/firma_seneca_blanco.png" id="logo-uniandes-footer">
-<hr id="hr-left">
-</div>
-<div class="row">
-<div class="col-md-6">
-<p>Cra 1 Nº 18A - 12</p>
-<p>Bogotá - Colombia</p>
-<p>Postal code: 111711</p>
-</div>
-<div class="col-md-6" id="footer-phone-section">
-<p>
-<a href="tel:+5713394999" class="footer-phone">+(571) 339 49 99</a>
-</p>
-<p>
-<a href="tel:+5713394949" class="footer-phone">+(571) 339 49 49</a>
-</p>
-</div>
-</div>
-</div>
-<div class="col-xs-12 col-sm-6 col-md-4 row" id="footer-middle">
-<div class="col-xs-12 col-sm-6">
-<hr id="hr-left">
-<h4>Normatividad Institucional</h4>
-<ul class="list-footer">
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Actos internos e incremento</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/bienestar/">Bienestar</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/derechos-pecuniarios/">Derechos pecunarios</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/estatuto-docente/">Estatuto docente</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/en/normatividad-institucional/2-uncategorised/69-estatutos-de-la-universidad">Estatuto general</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/ley-de-transparencia/">Ley de transparencia</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo_10_Presupuesto_de_Rentas_y_Gastos_2017.pdf">Porcentaje de incremento</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://secretariageneral.uniandes.edu.co/index.php/es/component/content/article/11-asuntos-estudiantiles/24-reglamentos-estudiantiles">Reglamentos de estudiantes</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/uso-de-datos-personales/">Uso de datos personales</a>
-</li>
-</ul>
-</div>
-<div class="col-xs-12 col-sm-6">
-<hr id="hr-left">
-<h4>Enlaces Rápidos</h4>
-<ul class="list-footer">
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon">ATC (Acceso Temporal al Campus)</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/caribe">Universidad
-    <de>los Andes Caribe</a></de></li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/es/convivencia-0/">Convivencia y transparencia</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://educacioncontinuada.uniandes.edu.co/index.php/es/nuestra-oferta/cursos-abiertos">Educación Continuada</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://gerenciacampus.uniandes.edu.co/Areas-funcionales/Servicios-medicos-y-seguridad-industrial/Emergencias/Sistema-de-Atencion-de-Emergencias-SAE">Emergencias: Extensión 0000</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://investigaciones.uniandes.edu.co/es/informacion/profesores/">Nuestros profesores</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/sitemap/">Mapa del sitio</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/multimedia/">Multimedia</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/noticias/">Noticias</a>
-</li>
-<li class="list-footer-link">
-<a class="list-footer-link" target="" href="https://uniandes.edu.co/preguntas-frecuentes/">Preguntas frecuentes</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-3" id="footer-right">
-<hr id="hr-left">
-<h4>Redes sociales</h4>
-
-
-<p class="network-directory-footer">
-<a href="https://uniandes.edu.co/universidad/informacion-general/redes-sociales/" class="directorio-redes">Directorio de redes</a>
-</p>
-</div>
-</div>
-</div>
-</div>
-          <script type="text/javascript">
-          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-          try {
-          var pageTracker = _gat._getTracker("UA-15980034-1");
-          pageTracker._trackPageview();
-          } catch(err) {}</script>
-            </body>
-          </html>
+                                      <p class="network-directory-footer">
+                                        <a href="https://uniandes.edu.co/universidad/informacion-general/redes-sociales/" class="directorio-redes">Directorio de redes</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <script type="text/javascript">
+                                var gaJsHost = (
+                                  ("https:" == document.location.protocol)
+                                    ? "https://ssl."
+                                    : "http://www."
+                                );
+                                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                              </script>
+                              <script type="text/javascript">
+                                try {
+                                  var pageTracker = _gat._getTracker("UA-15980034-1");
+                                  pageTracker._trackPageview();
+                                } catch (err) {}
+                              </script>
+                            </body>
+                          </html>
