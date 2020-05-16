@@ -31,7 +31,7 @@
                           <li class="nav-item nav-item nav-item--logo">
                             <img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/>
                           </li>
-                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Pagina inicial</a></li>
+                          <li class="hidden-sm nav-item"><a class="nav-link" href="/">Página inicial</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Término Clave</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Autor</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Valoración</a></li>
