@@ -4,6 +4,7 @@
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
     <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+              <link rel="stylesheet" type="text/css" href="/css/main.min.css" />
               <style type="text/css" media="screen">@import url(<epc:print expr="$config{base_url}"/>/css/auto.css);</style>
               <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
               <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
