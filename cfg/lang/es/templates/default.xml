@@ -10,7 +10,7 @@
               <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
               <link rel="Top" href="{$config{frontpage}}"/>
               <link rel="Search" href="{$config{perl_url}}/search"/>
-              
+
             </head>
 
             <body onload="{$config{onload}}">
@@ -30,7 +30,7 @@
                       <nav id="nav-menu-container" class="nav-main" role="navigation">
                         <ul class="nav_ul nav nav-fill nav-mega">
                           <li class="nav-item nav-item nav-item--logo">
-                            <img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/>
+                            <img alt="Funes" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
                           </li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Página inicial</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="{$config{base_url}}/view/subjects/">Término Clave</a></li>
