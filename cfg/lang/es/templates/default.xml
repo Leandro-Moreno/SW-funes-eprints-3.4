@@ -29,7 +29,7 @@
                       <nav id="nav-menu-container" class="nav-main" role="navigation">
                         <ul class="nav_ul nav nav-fill nav-mega">
                           <li class="nav-item nav-item nav-item--logo">
-                            <a href="/" target="_blank">a</a>
+                            <img alt="Funes" src="{$config{base_url}}/images/funesLogo.jpg" border="0"/>
                           </li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Pagina inicial</a></li>
                           <li class="hidden-sm nav-item"><a class="nav-link" href="/">Término Clave</a></li>
