@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="the-box container--the-box container" align="center">
+    <div class="the-box container--the-box container text-left">
       <epc:pin ref="toolbar"/>
 
             <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
