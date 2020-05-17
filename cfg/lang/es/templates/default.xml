@@ -39,31 +39,31 @@
                 <li class="nav-item nav-item nav-item--logo">
                   <img alt="Funes" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
                 </li>
-                <li class="hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="/">Página inicial</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/subjects/">Término Clave</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/creators/">Autor</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/valoration/">Valoración</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/enfoque/">Enfoque</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/divisions/">Nivel Educativo</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/revista/">Revista</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/editorial/">Editorial</a>
                 </li>
-                <li class="d-sm-none d-xs-none hidden-sm nav-item">
+                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
                   <a class="nav-link" href="{$config{base_url}}/view/year/">Año</a>
                 </li>
               </ul>
