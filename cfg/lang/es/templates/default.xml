@@ -22,15 +22,15 @@
       <div class="container container-fluid">
           <a class="float-left" href="https://uniandes.edu.co">Volver al sitio institucional</a>
           <div class="float-right">
-            <a class="" href="{{$config{base_url}}/cgi/register">Ingresar</a>
-            <a class="ml-2" href="{{$config{base_url}}/cgi/register">Registrarse</a>
+            <a class="" href="{$config{base_url}}/cgi/register">Ingresar</a>
+            <a class="ml-2" href="{$config{base_url}}/cgi/register">Registrarse</a>
           </div>
       </div>
     </section>
     <nav class="navbar navbar-expand-lg bg-primary navbar-absolute text-white">
   <div class="container-fluid">
     <div class="navbar-wrapper">
-      <a class="navbar-brand" href="{{$config{frontpage}}"><img height="65px" style="fill:white;" src='http://134.122.17.78/images/logoFunes.png'/></a>
+      <a class="navbar-brand" href="{$config{base_url}}"><img height="65px" style="fill:white;" src='{$config{base_url}}/images/logoFunes.png'/></a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
       <span class="sr-only">Toggle navigation</span>
@@ -155,7 +155,15 @@ tiene el patrocinio del
       document.write(unescape("%3Cscript src='/js/plugins/bootstrap-notify.js' type='text/javascript'%3E%3C/script%3E"));
       document.write(unescape("%3Cscript src='/js/plugins/perfect-scrollbar.jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
+    js/core/jquery.min.js
+        js/core/popper.min.js
+        js/core/bootstrap-material-design.min.js
+        js/plugins/perfect-scrollbar.jquery.min.js
 
+        js/plugins/nouislider.min.js
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js
+        js/plugins/bootstrap-notify.js
+        js/material-dashboard.js?v=2.1.1
 
         </body>
 </html>
