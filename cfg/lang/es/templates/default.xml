@@ -103,7 +103,62 @@
   </div>
 </nav>
 </div>
+<div class="wrapper wrapper-full-page">
+  <div class="the-box container--the-box container text-left ">
+    <epc:pin ref="toolbar"/>
 
+          <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
+          <epc:pin ref="page"/>
+    </div>
+    <footer>
+  <div class="container" id="footer-container">
+
+    <div class="row">
+<div class="col-xs-12 col-sm-6 col-md-6" id="footer-left">
+<div class="col-md-12">
+  <img alt="Funes" id="logo-uniandes-footer" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
+  <hr id="hr-left">
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="{$config{base_url}}/images/ued.gif" /></a>
+      </div>
+      <div class="col-md-12">
+        <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="{$config{base_url}}/images/CIFE.jpg" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6" id="footer-phone-section">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="{$config{base_url}}/images/FQM.gif" /></a>
+      </div>
+      <div class="col-md-12">
+        <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="{$config{base_url}}/images/ugr.gif" /></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6" id="footer-right">
+Funes
+es un proyecto de
+<a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
+(<a href="http://cife.uniandes.edu.co/">CIFE</a>,
+<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotá, Colombia), en colaboración con el grupo
+<a href="http://fqm193.ugr.es/">FQM-193</a>
+del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de Andalucía.
+Funes
+tiene el patrocinio del
+<a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
+</div>
+</div>
+  </div>
+</footer>
+    </div>
 
     <script type="text/javascript">
       var gaJsHost = (
@@ -121,12 +176,8 @@
     </script>
 
     <script type="text/javascript">
-      var gaJsHost = (
-        ("https:" == document.location.protocol)
-          ? "https://ssl."
-          : "http://www."
-      );
-      document.write(unescape("%3Cscript src='" + gaJsHost + "{$config{base_url}}/javascript/material.js' type='text/javascript'%3E%3C/script%3E"));
+
+      document.write(unescape("%3Cscript src='/javascript/material.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
 
 
