@@ -1,34 +1,3 @@
-/*!
-
- =========================================================
- * Material Dashboard - v2.1.1
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/material-dashboard
- * Copyright 2018 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
-(function() {
-  isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
-
-  if (isWindows) {
-    // if we are on windows OS we activate the perfectScrollbar function
-    $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
-
-    $('html').addClass('perfect-scrollbar-on');
-  } else {
-    $('html').addClass('perfect-scrollbar-off');
-  }
-})();
-
-
 var breakCards = true;
 
 var searchVisible = 0;
@@ -49,41 +18,6 @@ var seq2 = 0,
   delays2 = 80,
   durations2 = 500;
 
-$(document).ready(function() {
-
-  $('body').bootstrapMaterialDesign();
-
-  $sidebar = $('.sidebar');
-
-  md.initSidebarsCheck();
-
-  window_width = $(window).width();
-
-  // check if there is an image set for the sidebar's background
-  md.checkSidebarImage();
-
-  //    Activate bootstrap-select
-  if ($(".selectpicker").length != 0) {
-    $(".selectpicker").selectpicker();
-  }
-
-  //  Activate the tooltips
-  $('[rel="tooltip"]').tooltip();
-
-  $('.form-control').on("focus", function() {
-    $(this).parent('.input-group').addClass("input-group-focus");
-  }).on("blur", function() {
-    $(this).parent(".input-group").removeClass("input-group-focus");
-  });
-
-  // remove class has-error for checkbox validation
-  $('input[type="checkbox"][required="true"], input[type="radio"][required="true"]').on('click', function() {
-    if ($(this).hasClass('error')) {
-      $(this).closest('div').removeClass('has-error');
-    }
-  });
-
-});
 
 $(document).on('click', '.navbar-toggler', function() {
   $toggle = $(this);
