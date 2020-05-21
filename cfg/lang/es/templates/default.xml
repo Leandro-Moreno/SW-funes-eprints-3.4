@@ -2,17 +2,7 @@
 <!DOCTYPE html SYSTEM "entities.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
-    <title><epc:pin ref="title" textonly="yes"/>-<epc:phrase ref="archive_name"/></title>
-    <link rel="stylesheet" type="text/css" href="/css/material.css" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="Top" href="{$config{frontpage}}"/>
-    <link rel="Search" href="{$config{perl_url}}/search"/>
+
     </head>
     <body class="off-canvas-sidebar"  onload="{$config{onload}}">
       <div class="ep_noprint">
@@ -108,14 +98,7 @@ tiene el patrocinio del
       } catch (err) {}
     </script>
 
-    <script type="text/javascript">
-      var gaJsHost = (
-        ("https:" == document.location.protocol)
-          ? "https://ssl."
-          : "http://www."
-      );
-      document.write(unescape("%3Cscript src='" + gaJsHost + "{$config{base_url}}/javascript/material.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
+
 
 
         </body>
