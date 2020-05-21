@@ -15434,7 +15434,7 @@ footer > .container {
 
 .wrapper {
   position: relative;
-  top: 0;
+  top: 120px;
   height: 100vh;
 }
 
@@ -19719,3 +19719,4 @@ Copyright (c) 2015 Daniel Eden
     display: none !important;
   }
 }
+
