@@ -22,15 +22,15 @@
       <div class="container container-fluid">
           <a class="float-left" href="https://uniandes.edu.co">Volver al sitio institucional</a>
           <div class="float-right">
-            <a class="" href="{$config{base_url}}/cgi/register">Ingresar</a>
-            <a class="ml-2" href="{$config{base_url}}/cgi/register">Registrarse</a>
+            <a class="" href="https://uniandes.edu.co">Ingresar</a>
+            <a class="ml-2" href="https://uniandes.edu.co">Registrarse</a>
           </div>
       </div>
     </section>
     <nav class="navbar navbar-expand-lg bg-primary navbar-absolute text-white">
   <div class="container-fluid">
     <div class="navbar-wrapper">
-      <a class="navbar-brand" href="{$config{base_url}}"><img height="65px" style="fill:white;" src='{$config{base_url}}/images/logoFunes.png'/></a>
+      <a class="navbar-brand" href="{$config{frontpage}}"><img height="65px" style="fill:white;" src='{$config{frontpage}}/images/logoFunes.png'/></a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
       <span class="sr-only">Toggle navigation</span>
