@@ -2,145 +2,195 @@
 <!DOCTYPE html SYSTEM "entities.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"/>
     <title><epc:pin ref="title" textonly="yes"/>-<epc:phrase ref="archive_name"/></title>
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/material.css" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="Top" href="{$config{frontpage}}"/>
     <link rel="Search" href="{$config{perl_url}}/search"/>
-
-  </head>
-
-  <body onload="{$config{onload}}">
-    <div class="ep_noprint">
-      <noscript>
-        <style type='text/css'>
-          @import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);
-        </style>
-      </noscript>
-    </div>
-    <epc:pin ref="pagetop"/>
-
-    <section class="banner-top">
+    </head>
+    <body class="off-canvas-sidebar"  onload="{$config{onload}}">
+      <div class="ep_noprint">
+        <noscript>
+          <style type='text/css'>
+            @import url(<epc:print expr="$config{base_url}"/>/style/nojs.css);
+          </style>
+        </noscript>
+      </div>
+      <epc:pin ref="pagetop"/>
+<div class="fixed-top">
+  <section class="d-none d-md-block p-1 text-white banner-top bg-dark ">
       <div class="container container-fluid">
-        <p>
-          <a href="https://uniandes.edu.co">Volver al sitio institucional</a>
-        </p>
+          <a class="float-left" href="https://uniandes.edu.co">Volver al sitio institucional</a>
+          <div class="float-right">
+            <a class="" href="https://uniandes.edu.co">Ingresar</a>
+            <a class="ml-2" href="https://uniandes.edu.co">Registrarse</a>
+          </div>
       </div>
     </section>
-
-    <div id="header" class="header">
-      <div class="">
-        <div class="header_outer-wrap row">
-          <section class="header_middle-wrap col-md-10">
-            <nav id="nav-menu-container" class="nav-main" role="navigation">
-              <ul class="nav_ul nav nav-fill nav-mega">
-                <li class="nav-item nav-item nav-item--logo">
-                  <img alt="Funes" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="/">Página inicial</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/subjects/">Término Clave</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/creators/">Autor</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/valoration/">Valoración</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/enfoque/">Enfoque</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/divisions/">Nivel Educativo</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/revista/">Revista</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/editorial/">Editorial</a>
-                </li>
-                <li class="d-md-block d-sm-none d-xs-none hidden-sm nav-item">
-                  <a class="nav-link" href="{$config{base_url}}/view/year/">Año</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg bg-primary navbar-absolute text-white">
+  <div class="container-fluid">
+    <div class="navbar-wrapper">
+      <a class="navbar-brand" href="http://sass.test/home"><img height="65px" style="fill:white;" src='http://134.122.17.78/images/logoFunes.png' /></a>
     </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="navbar-toggler-icon icon-bar"></span>
+      <span class="navbar-toggler-icon icon-bar"></span>
+      <span class="navbar-toggler-icon icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item hidden-menu">
+          <a href="#" class="nav-link">
+            Ingresar
+          </a>
+        </li>
+        <li class="nav-item hidden-menu">
+          <a href="{$config{base_url}}/cgi/register" class="nav-link registro">
+            Registrarse
+          </a>
+        </li>
+        <hr />
 
-    <div class="the-box container--the-box container text-left">
-      <epc:pin ref="toolbar"/>
+        <li class="nav-item active">
+          <a href="{$config{base_url}}" class="nav-link">
+            Página inicial
+          </a>
+        </li>
 
-            <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
-            <epc:pin ref="page"/>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/subjects/" class="nav-link">
+            Término clave
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/creators/" class="nav-link">
+            Autor
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/valoration/" class="nav-link">
+            Valoración
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/enfoque/" class="nav-link">
+            Enfoque
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/divisions/" class="nav-link">
+            Nivel educativo
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/revista/" class="nav-link">
+            Revista
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/editorial/" class="nav-link">
+            Editorial
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{$config{base_url}}/view/year/" class="nav-link">
+            Año
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+</div>
+<!-- End Navbar -->
+<div class="wrapper wrapper-full-page">
+  <div class="the-box container--the-box container text-left ">
+    <epc:pin ref="toolbar"/>
 
+          <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
+          <epc:pin ref="page"/>
+    </div>
     <footer>
-      <div class="container" id="footer-container">
+  <div class="container" id="footer-container">
 
-        <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6" id="footer-left">
-    <div class="col-md-12">
-      <img alt="Funes" id="logo-uniandes-footer" src="{$config{base_url}}/images/logoFunes.png" border="0"/>
-      <hr id="hr-left"/>
-    </div>
     <div class="row">
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="/images/ued.gif"/></a>
-          </div>
-          <div class="col-md-12">
-            <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="/images/CIFE.jpg"/></a>
-          </div>
-        </div>
+<div class="col-xs-12 col-sm-6 col-md-6" id="footer-left">
+<div class="col-md-12">
+  <img alt="Funes" id="logo-uniandes-footer" src="{$config{base_url}}/images/logoFunes.png" border="0">
+  <hr id="hr-left">
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="http://ued.uniandes.edu.co/"><img style="border: 0px solid; width: 95px; height: 45px;" alt="una empresa docente" src="{$config{base_url}}/images/ued.gif" /></a>
       </div>
-      <div class="col-md-6" id="footer-phone-section">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="/images/FQM.gif"/></a>
-          </div>
-          <div class="col-md-12">
-            <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="/images/ugr.gif"/></a>
-          </div>
-        </div>
-
+      <div class="col-md-12">
+        <a href="http://cife.uniandes.edu.co/"><img style="border: 0px solid; width: 110px; height: 35px;" alt="CIFE" src="{$config{base_url}}/images/CIFE.jpg" /></a>
       </div>
     </div>
   </div>
+  <div class="col-md-6" id="footer-phone-section">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="http://fqm193.ugr.es/"><img style="border: 0px solid ; width: 113px; height: 38px;" alt="Grupo FQM-193" src="{$config{base_url}}/images/FQM.gif" /></a>
+      </div>
+      <div class="col-md-12">
+        <a href="http://www.ugr.es/"><img style="border: 0px solid ; width: 116px; height: 38px;" alt="Universidad de Granada" src="{$config{base_url}}/images/ugr.gif" /></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
 <div class="col-xs-12 col-sm-6 col-md-6" id="footer-right">
-  <epc:phrase ref="archive_name"/>
-  es un proyecto de
-  <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
-  (<a href="http://cife.uniandes.edu.co/">CIFE</a>,
-  <a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotá, Colombia), en colaboración con el grupo
-  <a href="http://fqm193.ugr.es/">FQM-193</a>
-  del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de Andalucía.
-  <epc:phrase ref="archive_name"/>
-  tiene el patrocinio del
-  <a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
+Funes
+es un proyecto de
+<a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
+(<a href="http://cife.uniandes.edu.co/">CIFE</a>,
+<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotá, Colombia), en colaboración con el grupo
+<a href="http://fqm193.ugr.es/">FQM-193</a>
+del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de Andalucía.
+Funes
+tiene el patrocinio del
+<a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
+</div>
 </div>
   </div>
-      </div>
-    </footer>
-                              <script type="text/javascript">
-                                var gaJsHost = (
-                                  ("https:" == document.location.protocol)
-                                    ? "https://ssl."
-                                    : "http://www."
-                                );
-                                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-                              </script>
-                              <script type="text/javascript">
-                                try {
-                                  var pageTracker = _gat._getTracker("UA-15980034-1");
-                                  pageTracker._trackPageview();
-                                } catch (err) {}
-                              </script>
-                            </body>
-                          </html>
+</footer>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (
+        ("https:" == document.location.protocol)
+          ? "https://ssl."
+          : "http://www."
+      );
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-15980034-1");
+        pageTracker._trackPageview();
+      } catch (err) {}
+    </script>
+
+    <script type="text/javascript">
+      var gaJsHost = (
+        ("https:" == document.location.protocol)
+          ? "https://ssl."
+          : "http://www."
+      );
+      document.write(unescape("%3Cscript src='" + gaJsHost + "{$config{base_url}}/javascript/material.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+
+        </body>
+</html>
