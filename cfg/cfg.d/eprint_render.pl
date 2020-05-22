@@ -126,7 +126,6 @@ if(0){
 	#
 	#JSONLD
 	#
-	$links->appendChild( $session->plugin( "Export::JSONLD" )->dataobj_to_html_header( $eprint ) );
 	foreach my $key ( keys %fragments ) { $fragments{$key} = [ $fragments{$key}, "XHTML" ]; }
 
 	my $page = $eprint->render_citation( "summary_page", %fragments, flags=>$flags );
@@ -136,6 +135,7 @@ if(0){
 	my $links = $repository->xml()->create_document_fragment();
 	if( !$preview )
 	{
+		$links->appendChild( $session->plugin( "Export::JSONLD" )->dataobj_to_html_header( $eprint ) );
 		$links->appendChild( $repository->plugin( "Export::Simple" )->dataobj_to_html_header( $eprint ) );
 		$links->appendChild( $repository->plugin( "Export::DC" )->dataobj_to_html_header( $eprint ) );
 	}
