@@ -41,7 +41,7 @@
     <div class="collapse navbar-collapse justify-content-end">
       <ul class="navbar-nav">
         <li class="nav-item hidden-menu">
-          <a href="#" class="nav-link">
+          <a href="{$config{base_url}}/cgi/users/home" class="nav-link">
             Ingresar
           </a>
         </li>
