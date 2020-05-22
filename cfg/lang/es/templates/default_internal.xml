@@ -55,13 +55,13 @@
 
         <li class="nav-item active">
           <a href="{$config{base_url}}" class="nav-link">
-            P�gina inicial
+            Página inicial
           </a>
         </li>
 
         <li class="nav-item">
           <a href="{$config{base_url}}/view/subjects/" class="nav-link">
-            T�rmino clave
+            Término clave
           </a>
         </li>
         <li class="nav-item">
@@ -71,7 +71,7 @@
         </li>
         <li class="nav-item">
           <a href="{$config{base_url}}/view/valoration/" class="nav-link">
-            Valoraci�n
+            Valoración
           </a>
         </li>
         <li class="nav-item">
@@ -96,7 +96,7 @@
         </li>
         <li class="nav-item">
           <a href="{$config{base_url}}/view/year/" class="nav-link">
-            A�o
+            Año
           </a>
         </li>
       </ul>
@@ -122,12 +122,12 @@ Funes
 es un proyecto de
 <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
 (<a href="http://cife.uniandes.edu.co/">CIFE</a>,
-<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogot�, Colombia), en colaboraci�n con el grupo
+<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotá, Colombia), en colaboración con el grupo
 <a href="http://fqm193.ugr.es/">FQM-193</a>
-del Plan Andaluz de Investigaci�n, Desarrollo e Innovaci�n de la Junta de Andaluc�a.
+del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de Andalucía.
 Funes
 tiene el patrocinio del
-<a href="www.mineducacion.gov.co/">Ministerio de Educaci�n Nacional de Colombia</a>.
+<a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
 </div>
 </div>
   </div>
