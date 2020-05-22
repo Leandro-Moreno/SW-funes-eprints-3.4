@@ -13,7 +13,8 @@ $c->{search}->{simple} =
 			]
 		},
 	],
-
+	preamble_phrase => "cgi/search:preamble",
+	title_phrase => "cgi/search:simple_search",
 	citation => "result",
 	page_size => 20,
 	order_methods => {
