@@ -1,14 +1,13 @@
-
 ######################################################################
 #
 # Dynamic Template
 #
 # If you use a dynamic template then this function is called every
 # time a page is served to generate dynamic parts of it.
-# 
+#
 # The dynamic template feature may be disabled to reduce server load.
 #
-# When enabling/disabling it, run 
+# When enabling/disabling it, run
 # generate_apacheconf
 # generate_static
 # generate_views
@@ -18,36 +17,19 @@
 
 $c->{dynamic_template}->{enable} = 1;
 
-# This method is called every time ANY html page in the system is
-# requested so don't do anything that's very intensive.
-# The best way to do things like that are to do them once every five
-# miuntes and cache them to a file.
+# This method is called for every page to add/refine any parts that are
+# specified in the template as <epc:pin ref="name" />
 
-$c->{dynamic_template}->{function} = sub {
-	my( $session, $parts ) = @_;
+#$c->{dynamic_template}->{function} = sub {
+#	my( $repository, $parts ) = @_;
+#
+#};
 
-	my $user = $session->current_user;
-	if( defined $user )
-	{
-		$parts->{login_status} = $session->html_phrase( 
-			"dynamic:logged_in", 
-			user => $user->render_description,
-			tools => $session->render_toolbar );
-	}
-	else
-	{
-		$parts->{login_status} = $session->html_phrase( 
-			"dynamic:not_logged_in" );
-	}
-	if(defined $session->{request}){
-		$_ = $session->{request}->uri;
-		#eek assumes that any uri that ends with a number is an eprint abstract...
-		if(/^.*\/(\d+)\/$/){
-			$session->get_repository->{config}->{onload} = "sneep_comment_init();";
-		}else{
-			$session->get_repository->{config}->{onload} = "";
-		}
-	}
-
-};
-
+# To support backwards-compatibility the new-style key tools plugins are
+# included here
+$c->{plugins}->{"Screen::Login"}->{appears}->{key_tools} = 100;
+$c->{plugins}->{"Screen::Register"}->{actions}->{register}->{appears}->{key_tools} = 150;
+$c->{plugins}->{"Screen::Logout"}->{appears}->{key_tools} = 10000;
+$c->{plugins}->{"Screen::Admin::Config::Edit::XPage"}->{actions}->{edit}->{appears}->{key_tools} = 1250;
+$c->{plugins}->{"Screen::Admin::Phrases"}->{actions}->{edit}->{appears}->{key_tools} = 1350;
+$c->{plugins}->{"Screen::OtherTools"}->{appears}->{key_tools} = 20000;
