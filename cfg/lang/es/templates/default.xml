@@ -55,13 +55,13 @@
 
         <li class="nav-item active">
           <a href="{$config{base_url}}" class="nav-link">
-            Página inicial
+            Pï¿½gina inicial
           </a>
         </li>
 
         <li class="nav-item">
           <a href="{$config{base_url}}/view/subjects/" class="nav-link">
-            Término clave
+            Tï¿½rmino clave
           </a>
         </li>
         <li class="nav-item">
@@ -71,7 +71,7 @@
         </li>
         <li class="nav-item">
           <a href="{$config{base_url}}/view/valoration/" class="nav-link">
-            Valoración
+            Valoraciï¿½n
           </a>
         </li>
         <li class="nav-item">
@@ -96,7 +96,7 @@
         </li>
         <li class="nav-item">
           <a href="{$config{base_url}}/view/year/" class="nav-link">
-            Año
+            Aï¿½o
           </a>
         </li>
       </ul>
@@ -121,12 +121,12 @@ Funes
 es un proyecto de
 <a href="http://ued.uniandes.edu.co/">"una empresa docente"</a>
 (<a href="http://cife.uniandes.edu.co/">CIFE</a>,
-<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotá, Colombia), en colaboración con el grupo
+<a href="http://www.uniandes.edu.co/">Universidad de los Andes</a>, Bogotï¿½, Colombia), en colaboraciï¿½n con el grupo
 <a href="http://fqm193.ugr.es/">FQM-193</a>
-del Plan Andaluz de Investigación, Desarrollo e Innovación de la Junta de Andalucía.
+del Plan Andaluz de Investigaciï¿½n, Desarrollo e Innovaciï¿½n de la Junta de Andalucï¿½a.
 Funes
 tiene el patrocinio del
-<a href="www.mineducacion.gov.co/">Ministerio de Educación Nacional de Colombia</a>.
+<a href="www.mineducacion.gov.co/">Ministerio de Educaciï¿½n Nacional de Colombia</a>.
 </div>
 </div>
   </div>
@@ -155,6 +155,9 @@ tiene el patrocinio del
       document.write(unescape("%3Cscript src='/js/material-dashboard.js' type='text/javascript'%3E%3C/script%3E"));
       document.write(unescape("%3Cscript src='/js/plugins/bootstrap-notify.js' type='text/javascript'%3E%3C/script%3E"));
       document.write(unescape("%3Cscript src='/js/plugins/perfect-scrollbar.jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script>
+      $('link[rel=stylesheet][href*="auto"]').remove();
     </script>
 
         </body>
