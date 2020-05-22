@@ -1,16 +1,8 @@
-$c->{search}->{simple} = 
+$c->{search}->{simple} =
 {
 	search_fields => [
 		{
-			id => "q",
-			meta_fields => [
-				$EPrints::Utils::FULLTEXT,
-				"title",
-				"abstract",
-				"creators_name",
-				"date",
-"subjects" 
-			]
+			id => "q"
 		},
 	],
 	preamble_phrase => "cgi/search:preamble",
@@ -26,4 +18,3 @@ $c->{search}->{simple} =
 	default_order => "byyear",
 	show_zero_results => 1,
 };
-
