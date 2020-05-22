@@ -4,6 +4,7 @@ EPrints::Plugin::Export::JSONLD
 
 =cut
 
+
 package EPrints::Plugin::Export::JSONLD;
 
 use EPrints::Plugin::Export;
@@ -15,8 +16,6 @@ use strict;
 use JSON;
 sub new
 {
-  print "hol";
-  exit;
 	my( $class, %params ) = @_;
 
 	my $self = $class->SUPER::new( %params );
