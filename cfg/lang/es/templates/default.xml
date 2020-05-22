@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf'8" standalone="no" ?>
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
 <!DOCTYPE html SYSTEM "entities.dtd" >
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
@@ -106,6 +106,7 @@
 </div>
 <div class="wrapper wrapper-full-page">
   <div class="the-box container--the-box container text-left ">
+    <epc:pin ref="login_status"/>
     <epc:pin ref="toolbar"/>
 
           <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
