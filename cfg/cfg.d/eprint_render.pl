@@ -123,7 +123,10 @@ if(0){
 	}
 	$fragments{ovid_url} = $url;
 }
-
+	#
+	#JSONLD
+	#
+	$links->appendChild( $session->plugin( "Export::JSONLD" )->dataobj_to_html_header( $eprint ) );
 	foreach my $key ( keys %fragments ) { $fragments{$key} = [ $fragments{$key}, "XHTML" ]; }
 
 	my $page = $eprint->render_citation( "summary_page", %fragments, flags=>$flags );
