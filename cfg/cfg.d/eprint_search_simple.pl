@@ -4,16 +4,15 @@ $c->{search}->{simple} =
 		{
 			id => "q",
 			meta_fields => [
-				$EPrints::Utils::FULLTEXT,
+				"documents",
 				"title",
 				"abstract",
 				"creators_name",
-				"date",
-"subjects"
+				"date"
 			]
 		},
 	],
-	preamble_phrase => "cgi/search:preamble",
+#	preamble_phrase => "cgi/search:preamble",
 	title_phrase => "cgi/search:simple_search",
 	citation => "result",
 	page_size => 20,
