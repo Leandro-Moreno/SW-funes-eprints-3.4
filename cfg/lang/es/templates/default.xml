@@ -22,8 +22,8 @@
       <div class="container container-fluid">
           <a class="float-left" href="https://uniandes.edu.co">Volver al sitio institucional</a>
           <div class="float-right">
-            <a class="" href="https://uniandes.edu.co">Ingresar</a>
-            <a class="ml-2" href="https://uniandes.edu.co">Registrarse</a>
+            <a class="" href="{$config{base_url}}/cgi/users/home">Ingresar</a>
+            <a class="ml-2" href="{$config{base_url}}/cgi/register">Registrarse</a>
           </div>
       </div>
     </section>
