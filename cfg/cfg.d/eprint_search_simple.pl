@@ -2,7 +2,10 @@ $c->{search}->{simple} =
 {
 	search_fields => [
 		{
-			id => "q"
+			id => "q",
+			meta_fields => [
+				"title"
+			]
 		},
 	],
 	preamble_phrase => "cgi/search:preamble",
