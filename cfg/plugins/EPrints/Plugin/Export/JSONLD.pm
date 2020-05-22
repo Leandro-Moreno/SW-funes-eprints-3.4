@@ -15,7 +15,7 @@ use strict;
 use JSON;
 sub new
 {
-  print "hol";
+  printf "hol";
 	my( $class, %params ) = @_;
 
 	my $self = $class->SUPER::new( %params );
