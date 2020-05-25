@@ -107,6 +107,7 @@
 <div class="wrapper wrapper-full-page">
   <div class="the-box container--the-box container text-left ">
     <epc:pin ref="login_status"/>
+    <p>hola</p>
     <epc:pin ref="toolbar"/>
 
           <h1 class="ep_tm_pagetitle"><epc:pin ref="title"/></h1>
