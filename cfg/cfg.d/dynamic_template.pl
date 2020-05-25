@@ -20,23 +20,10 @@ $c->{dynamic_template}->{enable} = 1;
 # This method is called for every page to add/refine any parts that are
 # specified in the template as <epc:pin ref="name" />
 
-$c->{dynamic_template}->{function} = sub {
-	my( $session, $parts ) = @_;
-
-	my $user = $session->current_user;
-	if( defined $user )
-	{
-		$parts->{login_status} = $session->html_phrase(
-			"dynamic:logged_in",
-			user => $user->render_description,
-			tools => $session->render_toolbar );
-	}
-	else
-	{
-		$parts->{login_status} = $session->html_phrase(
-			"dynamic:not_logged_in" );
-	}
-};
+#$c->{dynamic_template}->{function} = sub {
+#	my( $repository, $parts ) = @_;
+#
+#};
 
 # To support backwards-compatibility the new-style key tools plugins are
 # included here
