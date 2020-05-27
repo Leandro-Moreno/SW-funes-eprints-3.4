@@ -14260,19 +14260,19 @@ fieldset[disabled] .form-group .form-control {
   display: none;
 }
 
-.ep_name_citation {
-  display: inline-block;
-}
-
-.ep_name_citation a {
-  display: inline-block;
-}
-
 .ep_tm_key_tools {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.ep_tm_key_tools .ep_name_citation {
+  display: inline-block;
+}
+
+.ep_tm_key_tools .ep_name_citation a {
+  display: inline-block;
 }
 
 .ep_tm_key_tools li {
