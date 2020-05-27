@@ -14269,12 +14269,14 @@ fieldset[disabled] .form-group .form-control {
 
 .ep_tm_key_tools li {
   float: left;
+  font-size: 13px;
+  padding: 0 5px;
 }
 
 .ep_tm_key_tools li a {
   display: block;
   text-align: center;
-  padding: 4px;
+  padding: 1 4px;
   text-decoration: none;
 }
 
