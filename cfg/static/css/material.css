@@ -14260,28 +14260,28 @@ fieldset[disabled] .form-group .form-control {
   display: none;
 }
 
-.ep_tm_key_tools {
+.menu-adm .ep_tm_key_tools {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.ep_tm_key_tools li {
+.menu-adm .ep_tm_key_tools li {
   float: left;
   font-size: 13px;
   padding: 0 10px;
 }
 
-.ep_tm_key_tools li .ep_name_citation {
+.menu-adm .ep_tm_key_tools li .ep_name_citation {
   display: inline-block;
 }
 
-.ep_tm_key_tools li .ep_name_citation a {
+.menu-adm .ep_tm_key_tools li .ep_name_citation a {
   display: inline-block;
 }
 
-.ep_tm_key_tools li a {
+.menu-adm .ep_tm_key_tools li a {
   text-align: center;
   padding: 1 4px;
   text-decoration: none;

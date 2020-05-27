@@ -20,7 +20,7 @@
       <epc:pin ref="pagetop"/>
 <div class="fixed-top">
   <section class="d-none d-md-block p-1 text-white banner-top bg-dark ">
-      <div class="container container-fluid">
+      <div class="container container-fluid menu-adm">
             <epc:pin ref="login_status"/>
       </div>
     </section>
