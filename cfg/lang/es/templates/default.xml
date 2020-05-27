@@ -43,9 +43,7 @@
           </a>
         </li>
         <li class="nav-item hidden-menu">
-          <a href="{$config{base_url}}/cgi/register" class="nav-link registro">
-            Registrarse
-          </a>
+          <epc:pin ref="login_status"/>
         </li>
         <hr/>
 
