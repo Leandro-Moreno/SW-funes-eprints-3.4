@@ -14259,7 +14259,12 @@ fieldset[disabled] .form-group .form-control {
 .hidden-menu {
   display: none;
 }
-
+.ep_tm_key_tools ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 ul .ep_tm_key_tools {
   list-style-type: none;
   margin: 0;
