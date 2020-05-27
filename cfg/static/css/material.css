@@ -14273,12 +14273,12 @@ fieldset[disabled] .form-group .form-control {
   padding: 0 5px;
 }
 
-.ep_tm_key_tools li span {
+.ep_tm_key_tools li .ep_name_citation {
   display: inline-block;
 }
 
-.ep_tm_key_tools li span a {
-  display: inline-block !important;
+.ep_tm_key_tools li .ep_name_citation a {
+  display: inline-block;
 }
 
 .ep_tm_key_tools li a {
