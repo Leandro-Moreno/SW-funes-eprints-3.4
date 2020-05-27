@@ -14259,24 +14259,19 @@ fieldset[disabled] .form-group .form-control {
 .hidden-menu {
   display: none;
 }
-.ep_tm_key_tools ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-ul .ep_tm_key_tools {
+
+.ep_tm_key_tools {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-ul .ep_tm_key_tools li {
+.ep_tm_key_tools li {
   float: left;
 }
 
-ul .ep_tm_key_tools li a {
+.ep_tm_key_tools li a {
   display: block;
   text-align: center;
   padding: 4px;
