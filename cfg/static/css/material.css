@@ -14270,7 +14270,7 @@ fieldset[disabled] .form-group .form-control {
 .ep_tm_key_tools li {
   float: left;
   font-size: 13px;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .ep_tm_key_tools li .ep_name_citation {
@@ -14282,7 +14282,6 @@ fieldset[disabled] .form-group .form-control {
 }
 
 .ep_tm_key_tools li a {
-  /* display: block; */
   text-align: center;
   padding: 1 4px;
   text-decoration: none;
