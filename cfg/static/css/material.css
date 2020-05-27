@@ -14271,6 +14271,8 @@ fieldset[disabled] .form-group .form-control {
   float: left;
   font-size: 13px;
   padding: 0 10px;
+  border-left: 0 !important;
+  border-right: 0 !important;
 }
 
 .menu-adm .ep_tm_key_tools li .ep_name_citation {
@@ -14285,6 +14287,7 @@ fieldset[disabled] .form-group .form-control {
   text-align: center;
   padding: 1 4px;
   text-decoration: none;
+  color: #05B35C;
 }
 
 .off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
