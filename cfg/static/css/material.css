@@ -14260,6 +14260,10 @@ fieldset[disabled] .form-group .form-control {
   display: none;
 }
 
+.ep_name_citation {
+  display: inline-block;
+}
+
 .ep_tm_key_tools {
   list-style-type: none;
   margin: 0;
@@ -14271,10 +14275,6 @@ fieldset[disabled] .form-group .form-control {
   float: left;
   font-size: 13px;
   padding: 0 5px;
-}
-
-.ep_tm_key_tools li.ep_name_citation {
-  display: inline-block;
 }
 
 .ep_tm_key_tools li a {
