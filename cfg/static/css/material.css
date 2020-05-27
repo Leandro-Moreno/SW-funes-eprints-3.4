@@ -14273,7 +14273,7 @@ fieldset[disabled] .form-group .form-control {
   padding: 0 5px;
 }
 
-.ep_tm_key_tools li .ep_name_citation {
+.ep_tm_key_tools li.ep_name_citation {
   display: inline-block;
 }
 
