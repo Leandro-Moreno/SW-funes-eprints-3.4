@@ -14260,6 +14260,24 @@ fieldset[disabled] .form-group .form-control {
   display: none;
 }
 
+ep_tm_key_tools {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ep_tm_key_tools li {
+  float: left;
+}
+
+ep_tm_key_tools li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
 .off-canvas-sidebar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -19719,4 +19737,3 @@ Copyright (c) 2015 Daniel Eden
     display: none !important;
   }
 }
-
