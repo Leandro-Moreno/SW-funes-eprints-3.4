@@ -21,10 +21,7 @@
 <div class="fixed-top">
   <section class="d-none d-md-block p-1 text-white banner-top bg-dark ">
       <div class="container container-fluid">
-          <a class="float-left" href="https://uniandes.edu.co">Volver al sitio institucional</a>
-          <div class="float-right">
             <epc:pin ref="login_status"/>
-          </div>
       </div>
     </section>
     <nav class="navbar navbar-expand-lg bg-primary navbar-absolute text-white">
