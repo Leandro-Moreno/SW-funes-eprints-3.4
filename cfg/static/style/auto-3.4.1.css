@@ -1,0 +1,590 @@
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/fileselector.css */
+
+.ep_fileselector dl {
+	margin: 0px 0px 0px 25px;
+	padding: 0px 0px;
+}
+.ep_fileselector dd {
+	margin: 0px 0px;
+}
+.ep_fileselector input {
+/*	float: left; */
+}
+.ep_fileselector label {
+	cursor: pointer;
+}
+.ep_fileselector dt.ep_fileselector {
+	clear: left; /* clear the floated input */
+	display: block;
+	cursor: pointer;
+	background-image: url(data:image/gif;base64,R0lGODlhEAAQAOMMAJuHDKKNBcCmCu3NEuzTOO/ZU/PhePTjgfTmj/XpmvXqovXtsP///////////////yH5BAEKAA8ALAAAAAAQABAAAARXUIA5xbsYA8SRAVkIHET5UagFGGVZvPALrkM9CEGuSw+A64bEYqEoDmbD5CJhaDYVSKdUCu0tptjETIGdanvcrvMLCIuDM+bZgJh13vADSIKqUyyhfCgCADs=);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 20px;
+	padding-bottom: 2px;
+}
+.ep_fileselector dt.ep_fileselector_open {
+	background-image: url(data:image/gif;base64,R0lGODlhEAAQAOMMAIp5CJqGCrmhCdy+Be3OIe3UP+/YUvLeaPLgdPTlifTolvTro////////////////yH5BAEKAA8ALAAAAAAQABAAAARZUIQ5xbsYh8QTClm4FeRBnYEVIERbHEYsF+Da3rhbH3lPPwFeL7cbGAcBgHIpAQqWgEJisVBYkUCqdpE4eL2K2uJLJoez5XSipkiXz5uOXP55SFD4VGi/jwAAOw==);
+}
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/form.css */
+
+
+/* Form related styles */
+
+form {
+	display: inline;
+}
+
+select, input.ep_form_text, textarea {
+	padding: 1px 2px 1px 2px;
+	margin-right: 4px;
+	border: solid 1px #ccc;
+}
+
+.ep_form_example {
+	font-weight: bold;
+	color: blue;
+}
+
+/* buttons */
+
+.ep_form_button_bar {
+	text-align: center;
+	padding: 4px;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ep_form_action_button, .ep_form_internal_button {
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	padding: 2px 20px;
+	cursor: pointer;
+}
+.ep_form_internal_button {
+	padding: 1px 14px;
+	background-position: 0px -2px;
+}
+
+/* form fields */
+
+.ep_form_field_help {
+        font-size: small ;
+}
+
+.ep_form_field_name {
+        padding-top: 1em;
+	font-weight: bold;
+}
+
+.ep_form_field_input {
+        padding-bottom: 3pt;
+}
+
+/* input fields grid */
+
+
+.ep_form_input_grid th {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 80%;
+}
+.ep_form_input_grid td {
+	vertical-align: middle;
+}
+
+td.ep_form_input_grid_pos {
+	padding-right: 4px;
+}
+td.ep_form_input_grid_arrows {
+	white-space: nowrap;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+td.ep_form_input_grid_wide {
+	text-align: left;
+}
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/messages.css */
+
+
+/* Message styles - used to provide alerts and errors */
+
+.ep_msg_message, .ep_msg_warning, .ep_msg_error, .ep_msg_other {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ep_msg_message_icon, .ep_msg_warning_icon, .ep_msg_error_icon {
+	padding: 10px;
+}
+
+.ep_msg_message_content, .ep_msg_error_content, .ep_msg_warning_content, .ep_msg_other_content {
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/multi.css */
+
+
+
+/*
+   Styles for the multi-field component.
+
+   ep_multi_*
+
+*/
+
+table.ep_multi
+{
+	width: 100%;
+}
+
+table.ep_multi tr:first-child th.ep_multi_heading,
+table.ep_multi tr:first-child td.ep_multi_input,
+table.ep_multi tr:first-child td.ep_multi_help
+{
+	border-top: none;
+}
+
+th.ep_multi_heading
+{
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	text-align: right;
+}
+
+td.ep_multi_input
+{
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-left: dashed #bbf 1px;
+}
+
+td.ep_multi_help
+{
+	white-space: nowrap;
+	border-top: dashed #bbf 1px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	vertical-align: top;
+	text-align: right;
+}
+
+/* help bits */
+
+.ep_multi_inline_help
+{
+	padding-bottom: 0.5em;
+}
+
+
+.ep_preview_title
+{
+	padding-top: 3px;
+	text-align: center;
+}
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/print.css */
+
+@media print {
+
+.ep_noprint {
+	display: none;
+}
+
+}
+
+
+
+  .ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom, .ep_view_group_by
+  {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  }
+  .ep_summary_box_title, .ep_sr_title_bar, .ep_sr_collapse_bar
+  {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  }
+  .ep_blister_node
+  {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  }
+  .ep_form_action_button, .ep_form_internal_button, .ep_tm_searchbarbutton
+  {
+    background-image: none;
+    margin-right: 8px;
+    min-width: 145px;
+    max-width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+  }
+  #ep_eprint_view_panels .ep_form_action_button
+  {
+    min-width: 145px;
+    max-width: 145px;
+  }
+  .ep_tm_searchbarbutton
+  {
+    min-width: inherit;
+  }
+
+  .ep_blister_node_selected
+  {
+    background-image: none;
+  }
+  dl.ep_action_list dd
+  {
+    margin-bottom: 15px;
+  }
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/z_metafield.css */
+
+table.ep_metafield_compound,
+table.ep_metafield_compound th,
+table.ep_metafield_compound td
+{
+  border: 0.5px solid lightgray;
+  border-spacing: 0px;
+}
+
+table.ep_metafield_compound th,
+table.ep_metafield_compound td
+{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.sneep_toolbar {}
+#sneep_comment_link_span {} /* The comment span */
+#sneep_comment_link {} /* The comment link */
+
+#sneep_main {}	/* daddy [div] that holds comment and note (and...) components */
+/* the big div that contains the comments*/
+.sneep_c_main {
+	background-color: #d5d8fc;
+}
+h1.sneep_c_main_title {
+	padding-top: 1em;
+	padding-left: 0.5em;
+	color: #000;
+	text-align: left;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#sneep_c_comment{} /* The div that the HTTP.response (comments) get appended to */
+/* intro p has the comment count and any other info one might want */
+p.sneep_c_intro_p{
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+#sneep_c_list{} /* The ul of comments */
+/* The li that contains each whole comment */
+.sneep_c_li {
+	list-style-type: none;
+}
+/* The header which has the username and comment date time */
+.sneep_c_header {
+	font-size: 90%;
+	font-weight: bold;
+}
+/* a little span just for the time */
+.sneep_c_time_span{
+	font-weight: normal;
+	font-style: italic;
+}
+.sneep_c_tools { /* For the editing tools that appear if a user owns a comment */
+	font-size : 95%;
+	position: relative;
+	top: -1.5em;
+	float: right;
+	padding-right: 2em;
+}
+.sneep_button_as_link /* Make the buttons look like links or at least not like buttons */
+{
+        cursor: pointer;
+        border: none;
+        background: none;
+        color: #666;
+        padding: 0px;
+        font-weight : bold;
+/*      text-decoration : underline; */
+}
+.sneep_button_as_link:hover
+{
+        color:#000;
+}
+.sneep_button_as_link:visited
+{
+        color:#000;
+}
+.sneep_comment_text{width: 75%;} /* For the actual comment text (which is displayed in a span in a paragraph)
+			This class is called from the paragraph and will there for effect the
+			textarea should it be grafted on by javascript */
+.sneep_comment_text_span {} /* better provide one for the text only */
+.sneep_comment_edit_textarea { overflow: auto; } /* some people might want to tart up the textarea... */
+.sneep_comment_add_textarea { overflow: auto; } /* some people might want to tart up the textarea... */
+
+#sneep_c_comments_end {} /* This is an <hr> that sits between the comments and the add form */
+
+.sneep_c_add  /* a div with the comment add title in it*/
+{
+/*	font-size : 95%;*/
+}
+ /*The header tag of the add comment bit */
+.sneep_c_add_comment {
+	color: #000;
+	padding-left: 0.5em;
+}
+
+/* a div with a textarea in it */
+.sneep_c_add_textarea {
+	padding-left: 0.5em;
+	padding-top: 0;
+}
+
+.sneep_message {
+	padding: 1em;
+	font-weight: bold;
+}
+#new_comment_text {} /* some people might want to tart up the textarea... */
+
+.sneep_admin_intervention { /*class for text that is rudely inserted into comments when an admin has been at them */
+	font-weight: bold;
+	color: #622;
+	padding: 2px;
+}
+
+/*sneep notes*/
+/* the big div that contains the notes */
+.sneep_n_main {
+	background-color: #fcd8d5;
+}
+h1.sneep_n_main_title {
+	padding-top: 1em;
+	padding-left: 0.5em;
+	color: #000;
+	text-align: left;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+/* intro p has the comment count and any other info one might want */
+p.sneep_n_intro_p{
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+.sneep_n_header { /* The header which has the username and comment date time */
+	font-size: 90%;
+	font-weight: bold;
+}
+/* a little span just for the time */
+.sneep_n_time_span{
+	font-weight: normal;
+	font-style: italic;
+}
+.sneep_n_tools { /* For the editing tools that appear if a user owns a comment */
+	font-size : 95%;
+	position: relative;
+	top: -1.5em;
+	float: right;
+	padding-right: 2em;
+}
+.sneep_n_li {
+	list-style-type: none;
+}
+ /*The header tag of the add comment bit */
+.sneep_n_add_note {
+	color: #000;
+	padding-left: 0.5em;
+}
+
+/* a div with a textarea in it */
+.sneep_n_add_textarea {
+	padding-left: 0.5em;
+	padding-top: 0;
+}
+.sneep_new_note_label{}
+
+.sneep_note_title_span { font-weight: bold; }
+.sneep_note_edit_textarea { overflow: auto; width: 30em; }
+.sneep_note_edit_title {
+	width: 21.7em;
+	padding: 1px 2px 1px 2px;
+	margin-right: 4px;
+	border: solid 1px #ccc;
+}
+
+.sneep_note_add_textarea { overflow: auto; width: 30em; } /* some people might want to tart up the textarea... */
+.sneep_note_add_title {
+	width: 21.7em;
+	padding: 1px 2px 1px 2px;
+	margin-right: 4px;
+	border: solid 1px #ccc;
+}
+
+.sneep_n_dialog .sneep_n_hd .sneep_n_c, .sneep_n_dialog .sneep_n_ft-l {
+ font-size:1px; /* ensure minimum height */
+ height:13px;
+}
+
+/* styles for rounded corners - thanks to David Kane of www.wit.ie */
+
+.sneep_n_dialog .sneep_n_ft { background:transparent url(../style/images/bl.gif) no-repeat 0px 0px; }
+.sneep_n_dialog .sneep_n_ft-l { background:transparent url(../style/images/br.gif) no-repeat right 0px; }
+
+.sneep_n_dialog .sneep_n_hd { background:transparent url(../style/images/tl.gif) no-repeat 0px 0px;}
+.sneep_n_dialog .sneep_n_hd .sneep_n_c { background:transparent url(../style/images/tr.gif) no-repeat right 0px;}
+.sneep_n_dialog .sneep_n_bd { background:transparent url(../style/images/ml.gif) repeat-y 0px 0px;}
+.sneep_n_dialog .sneep_n_bd .sneep_n_c { background:transparent url(../style/images/mr.gif) repeat-y right 0px;}
+
+/*
+.sneep_n_main + .sneep_dialog .sneep_ft-l { height:14px;}
+.sneep_n_main + .sneep_dialog .sneep_ft { background:transparent url(../style/images/bl.gif) no-repeat 0px 0px; }
+.sneep_n_main + .sneep_dialog .sneep_ft-l { background:transparent url(../style/images/br.gif) no-repeat right 0px; }
+
+.sneep_n_main + .sneep_dialog .sneep_hd { background:transparent url(../style/images/tl.gif) no-repeat 0px 0px;}
+.sneep_n_main + .sneep_dialog .sneep_hd .sneep_c { background:transparent url(../style/images/tr.gif) no-repeat right 0px;}
+.sneep_n_main + .sneep_dialog .sneep_bd { background:transparent url(../style/images/ml.gif) repeat-y 0px 0px;}
+.sneep_n_main + .sneep_dialog .sneep_bd .sneep_c { background:transparent url(../style/images/mr.gif) repeat-y right 0px;}
+*/
+.sneep_c_dialog .sneep_c_hd .sneep_c_c, .sneep_c_dialog .sneep_c_ft-l {
+ font-size:1px; /* ensure minimum height */
+ height:13px;
+}
+.sneep_c_dialog .sneep_c_ft { 	background:transparent url(../style/images/bl_b.gif) no-repeat 0px 0px; }
+.sneep_c_dialog .sneep_c_ft-l { 	background:transparent url(../style/images/br_b.gif) no-repeat right 0px; }
+
+.sneep_c_dialog .sneep_c_hd { background:transparent url(../style/images/tl_b.gif) no-repeat 0px 0px;}
+.sneep_c_dialog .sneep_c_hd .sneep_c_c { 	background:transparent url(/eprints/sty../style/images/tr_b.gif) no-repeat right 0px;}
+.sneep_c_dialog .sneep_c_bd { background:transparent url(../style/images/ml_b.gif) repeat-y 0px 0px;}
+.sneep_c_dialog .sneep_c_bd .sneep_c_c { background:transparent url(../style/images/mr_b.gif) repeat-y right 0px;}
+
+
+
+
+/* From: /usr/share/eprints/archives/funes/cfg/static/style/auto/zzz_sneep_tags.css */
+
+.sneep_t_main {
+	background-color: #d8fcd5;
+}
+
+h1.sneep_t_main_title {
+	padding-top: 1em;
+	padding-left: 0.5em;
+	color: #000;
+	text-align: left;
+	font-size: 110%;
+	font-weight: bold;
+	display: inline;
+}
+.sneep_t_tools{
+	padding-left: 1em;
+	display: inline;
+}
+.sneep_tool_link{
+	font-size : 95%;
+        color: #666;
+        padding: 0px;
+	font-weight : bold;
+	text-decoration: none;
+}
+.sneep_tool_link:hover
+{
+        color: #000;
+}
+.sneep_tool_link:visited
+{
+        color:#666;
+}
+.sneep_tag_cloud_global{
+	padding-left: 1em;
+	padding-right:1em;
+}
+.sneep_tag_cloud{
+	padding-left: 2em;
+}
+.sneep_t_add_div{
+}
+.sneep_t_input_label{
+	padding-left: 1em;
+}
+
+.sneep_tag_message{
+	width: 30em;
+	padding-left: 2em;
+}
+.sneep_tag_error_li{
+	background-color: #faa;
+	border: solid 1px #f33;
+	list-style-type: none;
+	margin: 0.5em;
+}
+.ep_form_action_button, .ep_form_internal_button, .ep_tm_searchbarbutton, .ep_blister_node_selected {
+    border-color: #5b97c7 #13324a #13324a #5287b3;
+    background-image: url(images/bar_12px.png);
+    background-color: #1f4f76;
+    color: white;
+}
+
+.sneep_tag_message_li{
+	background-color: #aaf;
+	border: solid 1px #33f;
+	list-style-type: none;
+	margin: 0.5em;
+}
+
+.sneep_tag_delete_link {
+	text-decoration: none;
+	color: #000;
+}
+.sneep_tag_delete_icon {
+	vertical-align: super;
+}
+
+.sneep_t_dialog .sneep_t_hd .sneep_t_c, .sneep_t_dialog .sneep_t_ft-l {
+ font-size:1px; /* ensure minimum height */
+ height:13px;
+}
+
+.sneep_t_dialog .sneep_t_ft { 	background:transparent url(../style/images/bl_g.gif) no-repeat 0px 0px; }
+.sneep_t_dialog .sneep_t_ft-l { 	background:transparent url(../style/images/br_g.gif) no-repeat right 0px; }
+
+.sneep_t_dialog .sneep_t_hd { background:transparent url(../style/images/tl_g.gif) no-repeat 0px 0px;}
+.sneep_t_dialog .sneep_t_hd .sneep_t_c { 	background:transparent url(../style/images/tr_g.gif) no-repeat right 0px;}
+.sneep_t_dialog .sneep_t_bd { background:transparent url(../style/images/ml_g.gif) repeat-y 0px 0px;}
+.sneep_t_dialog .sneep_t_bd .sneep_t_c { background:transparent url(../style/images/mr_g.gif) repeat-y right 0px;}
