@@ -42,8 +42,14 @@
             Ingresar
           </a>
         </li>
+
         <li class="nav-item hidden-menu">
+          <a class="nav-link" data-toggle="collapse" href="#Configuracion" aria-expanded="false">
+          Configuración
+        </a>
+        <div class="collapse" id="Configuracion" style="">
           <epc:pin ref="login_status"/>
+        </div>
         </li>
         <hr/>
 
