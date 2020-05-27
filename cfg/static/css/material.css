@@ -14267,18 +14267,18 @@ fieldset[disabled] .form-group .form-control {
   overflow: hidden;
 }
 
-.ep_tm_key_tools .ep_name_citation {
-  display: inline-block;
-}
-
-.ep_tm_key_tools .ep_name_citation a {
-  display: inline-block;
-}
-
 .ep_tm_key_tools li {
   float: left;
   font-size: 13px;
   padding: 0 5px;
+}
+
+.ep_tm_key_tools li .ep_name_citation {
+  display: inline-block;
+}
+
+.ep_tm_key_tools li .ep_name_citation a {
+  display: inline-block;
 }
 
 .ep_tm_key_tools li a {
