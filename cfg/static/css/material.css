@@ -14260,6 +14260,13 @@ fieldset[disabled] .form-group .form-control {
   display: none;
 }
 
+.ep_tm_key_tools {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .ep_tm_key_tools ul {
   list-style-type: none;
   margin: 0;
@@ -14274,7 +14281,7 @@ fieldset[disabled] .form-group .form-control {
 .ep_tm_key_tools li a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 4px;
   text-decoration: none;
 }
 
